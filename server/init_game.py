@@ -1,4 +1,3 @@
-import sys
 import diplomacy
 from files import init_dirs, store_game
 

@@ -111,6 +111,8 @@ def store_game(phase, game, orders=None):
 
     if phase == 0:
         assert orders is None
+        # I think it's weird to use `None` as a special meaning value
+        # Maybe use an empty dict when calling in `init_game` instead
     else:
         assert orders is not None
         try:

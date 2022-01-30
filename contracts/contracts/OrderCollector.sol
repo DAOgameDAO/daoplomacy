@@ -29,6 +29,8 @@ contract OrderCollector {
         for (uint256 i = 0; i < players.length; i++) {
             orderLimits[players[i]] = orderLimit;
         }
+        // idk why you store the same `orderLimit` value for each player, you never update it.
+        // might as well store it once as a contract-wide value
     }
 
     function submitEncryptedOrder(

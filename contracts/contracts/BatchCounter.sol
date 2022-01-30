@@ -44,6 +44,6 @@ contract BatchCounter {
     }
 
     function currentBatchStartBlock() external view returns (uint256) {
-        return batchStartBlock(block.number);
+        return batchStartBlock(block.number); // I don't understand this
     }
 }

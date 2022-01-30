@@ -23,7 +23,7 @@ contract KeyBroadcast {
         uint64 activationBlockNumber,
         bytes calldata key
     ) external {
-        if (msg.sender == keypers.at(n, i)) {
+        if (msg.sender != keypers.at(n, i)) {
             revert SenderNotKeyper();
         }
         emit EonKey({
@@ -39,7 +39,7 @@ contract KeyBroadcast {
         bytes8 epochID,
         bytes calldata k
     ) external {
-        if (msg.sender == keypers.at(n, i)) {
+        if (msg.sender != keypers.at(n, i)) {
             revert SenderNotKeyper();
         }
         emit DecryptionKey({epochID: epochID, key: k, keyper: msg.sender});
