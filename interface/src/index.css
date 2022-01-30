@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+
+.select {
+  @apply mx-1 my-1 px-3 py-2
+    text-center appearance-none cursor-pointer
+    bg-white border-2 border-b-4 border-gray-700 rounded-md
+    focus:ring-4 hover:bg-gray-100 disabled:bg-white disabled:cursor-default;
+}
+
+.input {
+  @apply mx-1 my-1 px-2 py-1
+    border-2 border-gray-700 rounded-md
+    focus:ring-4 disabled:bg-gray-100;
+}
+
+.button {
+  @apply mx-1 my-1 px-2 py-1
+    bg-gray-200 border-2 border-gray-500 rounded-md shadow-md
+    hover:bg-gray-300 active:bg-gray-400 disabled:bg-white disabled:cursor-default;
+}

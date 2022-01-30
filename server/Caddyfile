@@ -1,0 +1,8 @@
+http://localhost:8000
+
+root * ./game1/
+header {
+    Access-Control-Allow-Origin *
+    -Server
+}
+file_server

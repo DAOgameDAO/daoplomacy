@@ -1,0 +1,1260 @@
+0,player1,A BUD - SER
+0,player1,F TRI - ALB
+0,player1,A VIE - GAL
+0,player2,F EDI - NTH
+0,player2,A LVP - YOR
+0,player2,F LON - ENG
+0,player3,F BRE - MAO
+0,player3,A MAR - SPA
+0,player3,A PAR - BUR
+0,player4,A BER - KIE
+0,player4,F KIE - HOL
+0,player4,A MUN - BUR
+0,player5,F NAP - ION
+0,player5,A ROM - VEN
+0,player5,A VEN - PIE
+0,player6,A MOS - UKR
+0,player6,F SEV - BLA
+0,player6,F STP/SC - BOT
+0,player6,A WAR - LVN
+0,player7,F ANK - BLA
+0,player7,A CON - BUL
+0,player7,A SMY - ANK
+1,player1,F ALB - GRE
+1,player1,A GAL - BUD
+1,player1,A SER S F ALB - GRE
+1,player2,F ENG - BRE
+1,player2,F NTH C A YOR - BEL
+1,player2,A YOR - BEL VIA
+1,player3,F MAO - POR
+1,player3,A PAR - BRE
+1,player3,A SPA H
+1,player4,F HOL - BEL
+1,player4,A KIE - DEN
+1,player4,A MUN - RUH
+1,player5,F ION - GRE
+1,player5,A PIE - MAR
+1,player5,A VEN - TRI
+1,player6,F BOT - SWE
+1,player6,A LVN - WAR
+1,player6,F SEV S A UKR - RUM
+1,player6,A UKR - RUM
+1,player7,F ANK - CON
+1,player7,A BUL - SER
+1,player7,A SMY - ANK
+2,player3,F BRE B
+2,player4,F KIE B
+2,player4,A MUN B
+2,player5,F NAP B
+2,player5,F VEN B
+2,player6,A MOS B
+2,player6,F STP/NC B
+2,player7,F SMY B
+3,player1,F ALB - GRE
+3,player1,A BUD - GAL
+3,player1,A SER S F ALB - GRE
+3,player2,F ENG S A YOR - BEL
+3,player2,F NTH C A YOR - BEL
+3,player2,A YOR - BEL VIA
+3,player3,F BRE S F POR - MAO
+3,player3,A PAR S A MAR - BUR
+3,player3,F POR - MAO
+3,player3,A SPA - GAS
+3,player4,A DEN H
+3,player4,F HOL S A RUH - BEL
+3,player4,F KIE - HEL
+3,player4,A MUN - BOH
+3,player4,A RUH - BEL
+3,player5,F ION - AEG
+3,player5,A MAR - BUR
+3,player5,F NAP - TYS
+3,player5,A TRI S A SER
+3,player5,F VEN S A TRI
+3,player6,A MOS - UKR
+3,player6,A RUM - SER
+3,player6,F SEV - BLA
+3,player6,F STP/NC - NWY
+3,player6,F SWE S F STP/NC - NWY
+3,player6,A WAR - GAL
+3,player7,A ANK - CON
+3,player7,A BUL - GRE
+3,player7,F CON - AEG
+3,player7,F SMY - EAS
+4,player1,F ALB - GRE
+4,player1,A BUD H
+4,player1,A SER S F ALB - GRE
+4,player2,F ENG S A BUR - BEL
+4,player2,F NTH - HOL
+4,player2,A YOR H
+4,player3,F BRE - MAO
+4,player3,A GAS - MAR
+4,player3,F MAO - SPA/SC
+4,player3,A PAR H
+4,player4,A BOH - MUN
+4,player4,A DEN H
+4,player4,F HEL - NTH
+4,player4,F HOL S F HEL - NTH
+4,player4,A RUH - KIE
+4,player5,A BUR - BEL
+4,player5,F ION - GRE
+4,player5,A TRI - SER
+4,player5,F TYS - TUN
+4,player5,F VEN - ADR
+4,player6,F BLA C A ANK - RUM
+4,player6,F NWY S F HEL - NTH
+4,player6,A RUM S A UKR - GAL
+4,player6,F SWE S F NWY
+4,player6,A UKR - GAL
+4,player6,A WAR - SIL
+4,player7,A ANK - RUM VIA
+4,player7,A BUL S A ANK - RUM
+4,player7,F CON S A BUL
+4,player7,F EAS - AEG
+5,player2,F NTH R EDI
+5,player6,A RUM D
+6,player3,F BRE B
+6,player5,F NAP B
+6,player6,F STP/NC B
+6,player7,F SMY B
+7,player1,F ALB - TRI
+7,player1,A BUD S F ALB - TRI
+7,player1,A SER S F ALB - TRI
+7,player2,F EDI - NWG
+7,player2,F ENG - NTH
+7,player2,A YOR - LON
+7,player3,F BRE - PIC
+7,player3,A MAR - PIE
+7,player3,F MAO - NAO
+7,player3,A PAR - BUR
+7,player3,F SPA/SC - WES
+7,player4,A DEN - KIE
+7,player4,F HOL - HEL
+7,player4,A KIE - HOL
+7,player4,A MUN S A PAR - BUR
+7,player4,F NTH S A YOR - LON
+7,player5,F ADR - ALB
+7,player5,A BEL H
+7,player5,F ION S F ALB - GRE
+7,player5,F NAP H
+7,player5,A TRI S A BUD
+7,player5,F TUN - WES
+7,player6,F BLA S A RUM
+7,player6,A GAL S A SIL - BOH
+7,player6,F NWY - SWE
+7,player6,A SIL - BOH
+7,player6,F STP/NC - NWY
+7,player6,F SWE - BAL
+7,player7,F AEG - GRE
+7,player7,A BUL S F AEG - GRE
+7,player7,F CON - AEG
+7,player7,A RUM S A GAL
+7,player7,F SMY - EAS
+8,player5,A TRI R VEN
+9,player1,A BUD - VIE
+9,player1,A SER S F TRI
+9,player1,F TRI S A PIE - VEN
+9,player2,F ENG - BEL
+9,player2,A LON H
+9,player2,F NWG - EDI
+9,player3,A BUR S F ENG - BEL
+9,player3,F NAO - MAO
+9,player3,F PIC S F ENG - BEL
+9,player3,A PIE - VEN
+9,player3,F SPA/SC - WES
+9,player4,F HEL - DEN
+9,player4,A HOL - BEL
+9,player4,A KIE - BER
+9,player4,A MUN H
+9,player4,F NTH S F NWG - NWY
+9,player5,F ALB - TRI
+9,player5,A BEL H
+9,player5,F ION H
+9,player5,F NAP - TYS
+9,player5,F TUN S F ION
+9,player5,A VEN S F ALB - TRI
+9,player6,F BAL - BER
+9,player6,F BLA - RUM
+9,player6,A BOH - VIE
+9,player6,A GAL - BUD
+9,player6,F NWY C A MUN - PAR
+9,player6,F SWE S F NWY
+9,player7,F AEG S F GRE
+9,player7,A BUL - RUM
+9,player7,F EAS - ION
+9,player7,F GRE H
+9,player7,A RUM - SEV
+10,player5,A BEL R RUH
+11,player1,A VIE B
+11,player2,F LVP B
+11,player5,F ALB D
+11,player5,F ION D
+11,player6,F BAL D
+11,player7,F ANK B
+11,player7,A SMY B
+12,player1,A BUD - RUM
+12,player1,A SER S A BUD - RUM
+12,player1,F TRI H
+12,player1,A VIE - TYR
+12,player2,F BEL H
+12,player2,F EDI - NWG
+12,player2,F LVP - CLY
+12,player2,A LON H
+12,player3,A BUR S F BEL
+12,player3,F MAO S F WES
+12,player3,F PIC S F BEL
+12,player3,A PIE H
+12,player3,F WES H
+12,player4,F DEN H
+12,player4,A HOL S F BEL
+12,player4,A KIE - RUH
+12,player4,A MUN S A RUH - BUR
+12,player4,F NTH S F EDI - NWG
+12,player5,A RUH H
+12,player5,F TUN - WES
+12,player5,F TYS S F TUN - WES
+12,player5,A VEN - TRI
+12,player6,F BLA - ARM
+12,player6,A BOH - SIL
+12,player6,A GAL - UKR
+12,player6,F NWY - NWG
+12,player6,F SWE - NWY
+12,player7,F AEG - CON
+12,player7,F ANK S A SMY - ARM
+12,player7,A BUL S F AEG - CON
+12,player7,F EAS - AEG
+12,player7,F GRE S A BUL
+12,player7,A SEV - MOS
+12,player7,A SMY - ARM
+13,player1,A RUM S F BLA - BUL/EC
+13,player1,A SER S A RUM
+13,player1,F TRI S A TYR - VEN
+13,player1,A TYR - VEN
+13,player2,F BEL H
+13,player2,F CLY - NAO
+13,player2,A LON - WAL
+13,player2,F NWG - NWY
+13,player3,A BUR S F PIC - BEL
+13,player3,F MAO - ENG
+13,player3,F PIC - BEL
+13,player3,A PIE S A VEN
+13,player3,F WES - MAO
+13,player4,F DEN - SWE
+13,player4,A HOL - RUH
+13,player4,A KIE - BER
+13,player4,A MUN S A HOL - RUH
+13,player4,F NTH S F NWG - NWY
+13,player5,A RUH - HOL
+13,player5,F TUN H
+13,player5,F TYS H
+13,player5,A VEN H
+13,player6,F BLA - BUL/EC
+13,player6,F NWY - STP/NC
+13,player6,A SIL - WAR
+13,player6,F SWE - BOT
+13,player6,A UKR S A SIL - WAR
+13,player7,F AEG S A BUL
+13,player7,F ANK - BLA
+13,player7,A ARM - SEV
+13,player7,A BUL S A RUM
+13,player7,F CON S F ANK - BLA
+13,player7,F GRE S A BUL
+13,player7,A MOS S A ARM - SEV
+14,player2,F BEL R HOL
+14,player5,A RUH R KIE
+14,player6,F BLA R ARM
+15,player1,A BUD B
+15,player2,F EDI B
+15,player3,A BRE B
+15,player4,A BER D
+15,player5,F NAP B
+15,player6,F ARM D
+15,player6,A UKR D
+15,player6,A WAR D
+16,player1,A BUD - GAL
+16,player1,A RUM - SER
+16,player1,A SER - TRI
+16,player1,F TRI - ADR
+16,player1,A TYR S A SER - TRI
+16,player2,F EDI - NTH
+16,player2,F HOL S A KIE
+16,player2,F NAO - NWG
+16,player2,F NWY S F EDI - NTH
+16,player2,A WAL - LON
+16,player3,F BEL - HOL
+16,player3,A BRE - WAL VIA
+16,player3,A BUR H
+16,player3,F ENG C A BRE - WAL
+16,player3,F MAO - SPA/SC
+16,player3,A PIE - MAR
+16,player4,A MUN S A RUH
+16,player4,F NTH S F BEL - HOL
+16,player4,A RUH S F BEL - HOL
+16,player4,F SWE S F STP/NC - NWY
+16,player5,A KIE - RUH
+16,player5,F NAP - APU
+16,player5,F TUN S F TYS - ION
+16,player5,F TYS - ION
+16,player5,A VEN H
+16,player6,F BOT C A MOS - SWI
+16,player6,F STP/NC - NWY
+16,player7,F AEG - EAS
+16,player7,F BLA - CON
+16,player7,A BUL H
+16,player7,F CON - AEG
+16,player7,F GRE S A BUL
+16,player7,A MOS - UKR
+16,player7,A SEV - UKR
+17,player2,F NWY R BAR
+18,player1,F ADR - APU
+18,player1,A GAL - WAR
+18,player1,A SER - ALB
+18,player1,A TRI S A TYR - VEN
+18,player1,A TYR - VEN
+18,player2,F BAR - STP/NC
+18,player2,F EDI - YOR
+18,player2,F HOL - KIE
+18,player2,A LON H
+18,player2,F NWG - NAO
+18,player3,F BEL - HOL
+18,player3,A BUR - BEL
+18,player3,F ENG S F NTH - LON
+18,player3,A MAR - PIE
+18,player3,F SPA/SC - WES
+18,player3,A WAL - LVP
+18,player4,A MUN - KIE
+18,player4,F NTH - LON
+18,player4,A RUH S F BEL - HOL
+18,player4,F SWE S F NWY
+18,player5,F APU S F ION - ADR
+18,player5,F ION - ADR
+18,player5,A KIE - BER
+18,player5,F TUN - ION
+18,player5,A VEN H
+18,player6,F BOT - STP/SC
+18,player6,F NWY S F SWE
+18,player7,F AEG S F GRE
+18,player7,A BUL - RUM
+18,player7,F CON - BUL/SC
+18,player7,F EAS - ION
+18,player7,F GRE S F CON - BUL/SC
+18,player7,A MOS - WAR
+18,player7,A SEV S A BUL - RUM
+19,player2,F HOL R NTH
+19,player2,A LON R WAL
+19,player5,A VEN R TUS
+20,player1,A BUD B
+20,player2,F BAR D
+20,player2,F NTH D
+20,player2,A WAL D
+20,player2,F YOR D
+20,player3,F BRE B
+20,player3,A PAR B
+20,player6,A WAR B
+20,player7,A CON B
+21,player1,A ALB - SER
+21,player1,A BUD - GAL
+21,player1,A GAL - UKR
+21,player1,A TRI - TYR
+21,player1,A VEN - PIE
+21,player2,F NAO - MAO
+21,player3,A BEL S A PAR - BUR
+21,player3,F BRE - MAO
+21,player3,F ENG S F BRE - MAO
+21,player3,F HOL - NTH
+21,player3,A LVP H
+21,player3,A PAR - BUR
+21,player3,A PIE H
+21,player3,F WES H
+21,player4,F LON S F NWY - NTH
+21,player4,A MUN - BUR
+21,player4,A RUH S A BER - KIE
+21,player4,F SWE - DEN
+21,player5,F ADR - ION
+21,player5,F APU - NAP
+21,player5,A BER - KIE
+21,player5,F TUN S F ADR - ION
+21,player5,A TUS S A VEN - PIE
+21,player6,F BOT - SWE
+21,player6,F NWY - NTH
+21,player6,A WAR S A MOS - UKR
+21,player7,F AEG S F EAS - ION
+21,player7,F BUL/SC - GRE
+21,player7,A CON - BUL
+21,player7,F EAS - ION
+21,player7,F GRE - ALB
+21,player7,A MOS - UKR
+21,player7,A RUM S A MOS - UKR
+21,player7,A SEV S A RUM
+22,player3,A PIE R MAR
+23,player1,A BUD S A SER
+23,player1,A GAL - WAR
+23,player1,A PIE - VEN
+23,player1,A SER S A TYR - TRI
+23,player1,A TYR - TRI
+23,player2,F NAO - MAO
+23,player3,A BEL - RUH
+23,player3,A BUR - RUH
+23,player3,F ENG - NTH
+23,player3,F HOL - NTH
+23,player3,A LVP - EDI
+23,player3,A MAR H
+23,player3,F MAO - WES
+23,player3,F WES - TYS
+23,player4,F DEN - KIE
+23,player4,F LON S F NTH
+23,player4,A MUN S F DEN - KIE
+23,player4,A RUH S A KIE - HOL
+23,player5,F ADR - ION
+23,player5,A KIE - HOL
+23,player5,F NAP - TYS
+23,player5,F TUN S F NAP - TYS
+23,player5,A TUS S A PIE
+23,player6,F NTH S A KIE - HOL
+23,player6,F SWE - NWY
+23,player6,A WAR S A UKR - GAL
+23,player7,F AEG - GRE
+23,player7,F ALB - TRI
+23,player7,A BUL S A RUM - SER
+23,player7,F EAS S F NAP - ION
+23,player7,F GRE - ALB
+23,player7,A RUM - SER
+23,player7,A SEV - MOS
+23,player7,A UKR - GAL
+24,player1,A GAL R VIE
+24,player5,A KIE R BER
+25,player2,F NAO D
+25,player3,F BRE B
+25,player4,WAIVE
+25,player5,A BER D
+26,player1,A BUD S A SER - RUM
+26,player1,A SER - RUM
+26,player1,A TYR S A VEN - TRI
+26,player1,A VEN - TRI
+26,player1,A VIE - GAL
+26,player3,A BEL S A BUR - RUH
+26,player3,F BRE - ENG
+26,player3,A BUR - RUH
+26,player3,A EDI - YOR
+26,player3,F ENG - WAL
+26,player3,F HOL - NTH
+26,player3,A MAR - BUR
+26,player3,F MAO - NAF
+26,player3,F WES - TYS
+26,player4,F KIE S F NTH - HOL
+26,player4,F LON - ENG
+26,player4,A MUN - BUR
+26,player4,A RUH - BEL
+26,player5,F ION - APU
+26,player5,F TUN - ION
+26,player5,A TUS H
+26,player5,F TYS S F TUN - ION
+26,player6,F NTH - HOL
+26,player6,F NWY - NTH
+26,player6,A WAR H
+26,player7,F AEG S F ALB - ION
+26,player7,F ALB - ION
+26,player7,A BUL S A RUM - SER
+26,player7,F EAS S F ALB - ION
+26,player7,A GAL - BUD
+26,player7,F GRE S F ALB - ION
+26,player7,A MOS - SEV
+26,player7,A RUM - SER
+27,player1,A SER R ALB
+27,player3,F HOL R HEL
+28,player1,A ALB - TRI
+28,player1,A BUD - GAL
+28,player1,A TRI - VIE
+28,player1,A TYR - MUN
+28,player1,A VIE - BOH
+28,player3,A BEL S A RUH - HOL
+28,player3,F BRE - ENG
+28,player3,F HEL - DEN
+28,player3,A MAR - BUR
+28,player3,F NAF - WES
+28,player3,A RUH - HOL
+28,player3,F WAL - LON
+28,player3,F WES - LYO
+28,player3,A YOR S F WAL - LON
+28,player4,F KIE - DEN
+28,player4,F LON S F NTH
+28,player4,A MUN - KIE
+28,player5,F APU - NAP
+28,player5,F TUN S F TYS
+28,player5,A TUS - PIE
+28,player5,F TYS S F TUN
+28,player6,F HOL - KIE
+28,player6,F NTH - DEN
+28,player6,A WAR - MOS
+28,player7,F AEG C A BUL - APU
+28,player7,A BUL - APU VIA
+28,player7,F EAS S F ION
+28,player7,A GAL - UKR
+28,player7,F GRE S F ION
+28,player7,F ION C A BUL - APU
+28,player7,A SER - RUM
+28,player7,A SEV - MOS
+29,player3,A MAR B
+29,player4,WAIVE
+29,player4,WAIVE
+29,player6,A STP B
+30,player1,A BOH S A TYR - MUN
+30,player1,A GAL - SIL
+30,player1,A TRI - TYR
+30,player1,A TYR - MUN
+30,player1,A VIE - GAL
+30,player3,A BEL - RUH
+30,player3,A BUR S A BEL - RUH
+30,player3,F ENG - MAO
+30,player3,F LYO S F WES
+30,player3,F HEL S F NTH - DEN
+30,player3,A HOL S A BEL - RUH
+30,player3,F LON - NTH
+30,player3,A MAR - PIE
+30,player3,F WES H
+30,player3,A YOR - EDI
+30,player4,F KIE - DEN
+30,player4,A MUN - KIE
+30,player5,F NAP S F ION - TYS
+30,player5,A PIE S F TYS - TUS
+30,player5,F TUN S F ION - TYS
+30,player5,F TYS - TUS
+30,player6,F NTH - DEN
+30,player6,A STP - MOS
+30,player6,A WAR S A STP - MOS
+30,player7,F AEG H
+30,player7,A APU H
+30,player7,F EAS - ION
+30,player7,F GRE H
+30,player7,F ION - TYS
+30,player7,A RUM S A VIE - GAL
+30,player7,A SEV - MOS
+30,player7,A UKR S A SEV - MOS
+31,player4,A MUN R BER
+32,player1,A BOH S A MUN
+32,player1,A GAL S A SIL - WAR
+32,player1,A MUN S A BER - KIE
+32,player1,A SIL - WAR
+32,player1,A TYR S A MUN
+32,player3,A BUR S A BER - MUN
+32,player3,A EDI - DEN VIA
+32,player3,F LYO S F WES
+32,player3,F HEL S A EDI - DEN
+32,player3,A HOL - KIE
+32,player3,A MAR - PIE
+32,player3,F MAO - NAF
+32,player3,F NTH C A EDI - DEN
+32,player3,A RUH S A BER - MUN
+32,player3,F WES S F LYO
+32,player4,A BER - MUN
+32,player4,F KIE - BER
+32,player5,F NAP S F ION - TYS
+32,player5,A PIE - VEN
+32,player5,F TUN - WES
+32,player5,F TUS S F TYS - LYO
+32,player6,F DEN - SWE
+32,player6,A STP S A WAR - MOS
+32,player6,A WAR - MOS
+32,player7,F AEG S F GRE - ION
+32,player7,A APU S A PIE - VEN
+32,player7,F GRE - ION
+32,player7,F ION - TYS
+32,player7,A RUM - UKR
+32,player7,A SEV S A UKR - MOS
+32,player7,F TYS - LYO
+32,player7,A UKR - MOS
+33,player3,F LYO R SPA/SC
+33,player6,A WAR R LVN
+34,player1,A VIE B
+34,player3,A MAR B
+35,player1,A BOH - SIL
+35,player1,A GAL - WAR
+35,player1,A MUN H
+35,player1,A TYR S A MUN
+35,player1,A VIE - BOH
+35,player1,A WAR - PRU
+35,player3,A BUR S A PIE - MAR
+35,player3,A DEN S A HOL - KIE
+35,player3,F HEL S A HOL - KIE
+35,player3,A HOL - KIE
+35,player3,A MAR - GAS
+35,player3,F NAF S F WES
+35,player3,F NTH S A DEN
+35,player3,A PIE - MAR
+35,player3,A RUH S A HOL - KIE
+35,player3,F SPA/SC S F WES
+35,player3,F WES H
+35,player4,A BER S F KIE
+35,player4,F KIE S A BER
+35,player5,F NAP - TYS
+35,player5,F TUN S F TYS - WES
+35,player5,F TUS - PIE
+35,player5,A VEN S F TUS - PIE
+35,player6,A LVN S A WAR - MOS
+35,player6,A STP S A WAR - MOS
+35,player6,F SWE - BAL
+35,player7,F AEG S F ION
+35,player7,A APU H
+35,player7,F LYO - MAR
+35,player7,F ION S F TUN
+35,player7,A RUM H
+35,player7,A SEV S A UKR - MOS
+35,player7,F TYS - WES
+35,player7,A UKR - MOS
+36,player1,A BOH S A MUN
+36,player1,A MUN S A PRU - BER
+36,player1,A PRU - BER
+36,player1,A SIL S A PRU - BER
+36,player1,A TYR S A MUN
+36,player1,A WAR S A MOS
+36,player3,A BUR - MUN
+36,player3,A DEN S A KIE
+36,player3,A GAS S A MAR - SPA
+36,player3,F HEL S A KIE
+36,player3,A KIE S A BUR - MUN
+36,player3,A MAR - SPA
+36,player3,F NAF S F WES - TUN
+36,player3,F NTH - ENG
+36,player3,A RUH S A BUR - MUN
+36,player3,F SPA/SC - POR
+36,player3,F WES - TUN
+36,player4,A BER S A MUN
+36,player5,F NAP - TYS
+36,player5,F PIE - MAR
+36,player5,F TUN S F TYS - WES
+36,player5,A VEN H
+36,player6,F BAL S A PRU - BER
+36,player6,A LVN - STP
+36,player6,A STP - NWY
+36,player7,F AEG S F ION
+36,player7,A APU H
+36,player7,F LYO S F TYS - WES
+36,player7,F ION S F TUN
+36,player7,A MOS S A WAR
+36,player7,A RUM H
+36,player7,A SEV S A MOS
+36,player7,F TYS - WES
+37,player3,F WES R MAO
+38,player1,A TRI B
+38,player5,F NAP B
+39,player1,A BER S A MUN
+39,player1,A BOH S A MUN
+39,player1,A MUN S A BER
+39,player1,A SIL S A BER
+39,player1,A TRI - VEN
+39,player1,A TYR S A TRI - VEN
+39,player1,A WAR - LVN
+39,player3,A BUR - MAR
+39,player3,A DEN - LVN VIA
+39,player3,F ENG - NTH
+39,player3,A GAS S A SPA
+39,player3,F HEL S A KIE
+39,player3,A KIE H
+39,player3,F MAO S F NAF
+39,player3,F NAF S F TUN
+39,player3,F POR S A SPA
+39,player3,A RUH - BUR
+39,player3,A SPA H
+39,player5,F MAR H
+39,player5,F NAP - ROM
+39,player5,F TUN S F WES
+39,player5,F TYS C A APU - PIE
+39,player5,A VEN - ROM
+39,player6,F BAL C A DEN - LVN
+39,player6,A NWY S A STP
+39,player6,A STP S A DEN - LVN
+39,player7,F AEG - ION
+39,player7,A APU S F ION - NAP
+39,player7,F LYO - TYS
+39,player7,F ION - NAP
+39,player7,A MOS - LVN
+39,player7,A RUM H
+39,player7,A SEV - MOS
+39,player7,F WES S F LYO - TYS
+40,player5,F TYS R TUS
+40,player5,A VEN R PIE
+41,player1,A BER S A MUN
+41,player1,A BOH S A MUN
+41,player1,A MUN S A BER
+41,player1,A SIL S A MUN
+41,player1,A TYR - VEN
+41,player1,A VEN - ROM
+41,player1,A WAR S A MOS
+41,player3,A BUR - RUH
+41,player3,A GAS - BUR
+41,player3,F HEL S A KIE
+41,player3,A KIE S A BUR - RUH
+41,player3,A LVN - PRU
+41,player3,F MAO - WES
+41,player3,F NAF S F MAO - WES
+41,player3,F NTH - DEN
+41,player3,F POR - MAO
+41,player3,A RUH - HOL
+41,player3,A SPA H
+41,player5,F MAR - LYO
+41,player5,A PIE - VEN
+41,player5,F TUN - TYS
+41,player5,F TUS S F TUN - TYS
+41,player6,F BAL S A LVN - PRU
+41,player6,A NWY - STP
+41,player6,A STP - LVN
+41,player7,A APU S A TYR - VEN
+41,player7,F ION S F TYS - TUN
+41,player7,A MOS S A LVN - STP
+41,player7,F NAP S A VEN - ROM
+41,player7,A RUM H
+41,player7,A SEV S A MOS
+41,player7,F TYS - TUN
+41,player7,F WES - NAF
+42,player1,A TRI B
+42,player1,A VIE B
+42,player5,F LYO D
+42,player5,F TUS D
+42,player7,A CON B
+42,player7,F SMY B
+43,player1,A BER - MUN
+43,player1,A BOH S A BER - MUN
+43,player1,A MUN - BUR
+43,player1,A ROM - TUS
+43,player1,A SIL S A WAR
+43,player1,A TRI - BUD
+43,player1,A VEN H
+43,player1,A VIE - BUD
+43,player1,A WAR S A MOS
+43,player3,A BUR S A KIE - MUN
+43,player3,F DEN - SWE
+43,player3,F HEL S A HOL - KIE
+43,player3,A HOL - KIE
+43,player3,A KIE - MUN
+43,player3,F MAO - WES
+43,player3,F NAF S F TUN
+43,player3,A PRU - SIL
+43,player3,A RUH S A KIE - MUN
+43,player3,A SPA - MAR
+43,player3,F WES - LYO
+43,player5,A PIE - MAR
+43,player5,F TUN S F MAO - WES
+43,player6,F BAL - BER
+43,player6,A LVN - WAR
+43,player6,A STP - MOS
+43,player7,A APU - ROM
+43,player7,A CON - BUL
+43,player7,F ION S F TUN
+43,player7,A MOS S A WAR
+43,player7,F NAP - TYS
+43,player7,A RUM - UKR
+43,player7,A SEV S A MOS
+43,player7,F SMY - AEG
+43,player7,F TYS - LYO
+44,player1,A MUN R TYR
+45,player1,A BER - MUN
+45,player1,A BOH S A BER - MUN
+45,player1,A SIL S A BER - MUN
+45,player1,A TRI S A VIE - TYR
+45,player1,A TUS - ROM VIA
+45,player1,A TYR - PIE
+45,player1,A VEN S A TYR - PIE
+45,player1,A VIE - TYR
+45,player1,A WAR S A SIL
+45,player3,A BUR S A MUN
+45,player3,F HEL - DEN
+45,player3,A KIE - BER
+45,player3,F MAO - WES
+45,player3,A MUN S A PRU - SIL
+45,player3,F NAF S F TUN
+45,player3,A PRU - SIL
+45,player3,A RUH S A MUN
+45,player3,A SPA - CON VIA
+45,player3,F SWE - BOT
+45,player3,F WES - LYO
+45,player5,A PIE - TYR
+45,player5,F TUN S F MAO - WES
+45,player6,F BAL C A LVN - BER
+45,player6,A LVN - BER VIA
+45,player6,A STP - NWY
+45,player7,F AEG - GRE
+45,player7,A BUL - RUM
+45,player7,F ION S F TUN
+45,player7,A MOS S A WAR
+45,player7,F NAP S F TYS
+45,player7,A ROM - TUS
+45,player7,A SEV S A MOS
+45,player7,F TYS C A TUS - ROM
+45,player7,A UKR S A WAR
+46,player5,A PIE R MAR
+47,player1,A TRI D
+47,player3,A PAR B
+48,player1,A BER - SIL
+48,player1,A BOH S A BER - SIL
+48,player1,A PIE S A MAR
+48,player1,A ROM S A TUS
+48,player1,A SIL - GAL
+48,player1,A TYR S A BOH
+48,player1,A VEN S A PIE
+48,player1,A WAR S A SIL - GAL
+48,player3,A BUR S A MUN
+48,player3,F DEN H
+48,player3,F BOT S A NWY - STP
+48,player3,F LYO - TYS
+48,player3,A KIE - BER
+48,player3,A MUN S A PRU - SIL
+48,player3,F NAF - TUN
+48,player3,A PAR - GAS
+48,player3,A PRU - SIL
+48,player3,A RUH S A MUN
+48,player3,A SPA S A PAR - GAS
+48,player3,F WES S F NAF - TUN
+48,player5,A MAR H
+48,player5,F TUN H
+48,player6,F BAL S A KIE - BER
+48,player6,A LVN - WAR
+48,player6,A NWY - STP
+48,player7,F GRE H
+48,player7,F ION S F TUN
+48,player7,A MOS H
+48,player7,F NAP S F TYS
+48,player7,A RUM S A UKR
+48,player7,A SEV S A MOS
+48,player7,A TUS S A PIE
+48,player7,F TYS H
+48,player7,A UKR S A WAR
+49,player1,A BOH S A TYR
+49,player1,A GAL S A WAR
+49,player1,A PIE S A MAR
+49,player1,A ROM S A TUS
+49,player1,A TYR S A BOH
+49,player1,A VEN S A PIE
+49,player1,A WAR S A MOS
+49,player3,A BER S A MUN - SIL
+49,player3,A BUR S A RUH - MUN
+49,player3,F DEN H
+49,player3,A GAS - MAR
+49,player3,F BOT - SWE
+49,player3,F LYO - PIE
+49,player3,A MUN - SIL
+49,player3,F NAF - TUN
+49,player3,A PRU S A MUN - SIL
+49,player3,A RUH - MUN
+49,player3,A SPA S A GAS - MAR
+49,player3,F WES S F NAF - TUN
+49,player5,A MAR H
+49,player5,F TUN H
+49,player6,F BAL C A LVN - KIE
+49,player6,A LVN - KIE VIA
+49,player6,A STP - FIN
+49,player7,F GRE - BUL/SC
+49,player7,F ION S F TUN
+49,player7,A MOS H
+49,player7,F NAP S F TYS
+49,player7,A RUM H
+49,player7,A SEV S A MOS
+49,player7,A TUS H
+49,player7,F TYS H
+49,player7,A UKR S A WAR
+50,player3,F BRE B
+50,player3,A PAR B
+51,player1,A BOH S A TYR
+51,player1,A GAL S A WAR
+51,player1,A PIE H
+51,player1,A ROM S A TUS
+51,player1,A TYR S A BOH
+51,player1,A VEN S A PIE
+51,player1,A WAR S A MOS
+51,player3,A BER - KIE
+51,player3,F BRE - ENG
+51,player3,A BUR - RUH
+51,player3,F DEN - BAL
+51,player3,F LYO S F WES
+51,player3,A MAR H
+51,player3,A MUN S A SIL - BOH
+51,player3,F NAF S A SPA - TUN
+51,player3,A PAR - BUR
+51,player3,A PRU - WAR
+51,player3,A SIL - BOH
+51,player3,A SPA - TUN VIA
+51,player3,F SWE - BAL
+51,player3,F WES C A SPA - TUN
+51,player5,F TUN H
+51,player6,F BAL C A KIE - LVN
+51,player6,A FIN - STP
+51,player6,A KIE - LVN VIA
+51,player7,F BUL/SC H
+51,player7,F ION S F TUN
+51,player7,A MOS H
+51,player7,F NAP S F TYS
+51,player7,A RUM H
+51,player7,A SEV S A MOS
+51,player7,A TUS H
+51,player7,F TYS S A TUS
+51,player7,A UKR S A WAR
+52,player1,A BOH S A TYR
+52,player1,A GAL S A WAR
+52,player1,A PIE H
+52,player1,A ROM S A TUS
+52,player1,A TYR S A BOH
+52,player1,A VEN S A PIE
+52,player1,A WAR S A MOS
+52,player3,A BUR S A MUN
+52,player3,F DEN S A RUH - KIE
+52,player3,F ENG - NTH
+52,player3,F LYO - TYS
+52,player3,A KIE - BER
+52,player3,A MAR H
+52,player3,A MUN S A SIL - BOH
+52,player3,F NAF - MAO
+52,player3,A PRU - WAR
+52,player3,A RUH - KIE
+52,player3,A SIL - BOH
+52,player3,A SPA - NAF VIA
+52,player3,F SWE - NWY
+52,player3,F WES C A SPA - NAF
+52,player5,F TUN H
+52,player6,F BAL C A PRU - SWI
+52,player6,A LVN H
+52,player6,A STP H
+52,player7,F BUL/SC - CON
+52,player7,F ION S F TUN
+52,player7,A MOS H
+52,player7,F NAP S F TYS
+52,player7,A RUM H
+52,player7,A SEV S A MOS
+52,player7,A TUS H
+52,player7,F TYS S A TUS
+52,player7,A UKR S A WAR
+53,player3,WAIVE
+53,player3,WAIVE
+53,player6,A LVN D
+53,player6,A STP D
+54,player1,A BOH S A TYR
+54,player1,A GAL S A WAR
+54,player1,A PIE H
+54,player1,A ROM S A TUS
+54,player1,A TYR S A BOH
+54,player1,A VEN S A PIE
+54,player1,A WAR S A MOS
+54,player3,A BER S A SIL
+54,player3,A BUR S A MUN
+54,player3,F DEN S F NWY - SWE
+54,player3,F LYO - TYS
+54,player3,A KIE H
+54,player3,A MAR H
+54,player3,F MAO - WES
+54,player3,A MUN S A SIL
+54,player3,A NAF S F WES - TUN
+54,player3,F NTH - NWY
+54,player3,F NWY - SWE
+54,player3,A PRU S A SIL
+54,player3,A SIL H
+54,player3,F WES - TUN
+54,player5,F TUN H
+54,player6,F BAL - SWE
+54,player7,F CON - BLA
+54,player7,F ION S F TUN
+54,player7,A MOS H
+54,player7,F NAP S F TYS
+54,player7,A RUM H
+54,player7,A SEV S A MOS
+54,player7,A TUS H
+54,player7,F TYS S A TUS
+54,player7,A UKR S A WAR
+55,player1,A BOH S A TYR
+55,player1,A GAL S A WAR
+55,player1,A PIE H
+55,player1,A ROM S A TUS
+55,player1,A TYR S A BOH
+55,player1,A VEN S A PIE
+55,player1,A WAR S A MOS
+55,player3,A BER S A SIL
+55,player3,A BUR S A MUN
+55,player3,F DEN - BAL
+55,player3,F LYO - TYS
+55,player3,A KIE H
+55,player3,A MAR H
+55,player3,F MAO - WES
+55,player3,A MUN S A SIL
+55,player3,A NAF S F WES - TUN
+55,player3,F NWY H
+55,player3,A PRU S A SIL
+55,player3,A SIL H
+55,player3,F SWE S F DEN - BAL
+55,player3,F WES - TUN
+55,player5,F TUN H
+55,player6,F BAL - BOT
+55,player7,F BLA H
+55,player7,F ION S F TUN
+55,player7,A MOS H
+55,player7,F NAP S F TYS
+55,player7,A RUM H
+55,player7,A SEV S A MOS
+55,player7,A TUS H
+55,player7,F TYS S A TUS
+55,player7,A UKR S A WAR
+56,player3,WAIVE
+56,player3,WAIVE
+57,player1,A BOH S A TYR
+57,player1,A GAL S A WAR
+57,player1,A PIE H
+57,player1,A ROM S A TUS
+57,player1,A TYR S A BOH
+57,player1,A VEN S A PIE
+57,player1,A WAR S A MOS
+57,player3,F BAL S F SWE - BOT
+57,player3,A BER S A SIL
+57,player3,A BUR S A MUN
+57,player3,F LYO - TYS
+57,player3,A KIE - DEN
+57,player3,A MAR H
+57,player3,F MAO - WES
+57,player3,A MUN S A SIL
+57,player3,A NAF S F WES - TUN
+57,player3,F NWY - BAR
+57,player3,A PRU S A SIL
+57,player3,A SIL H
+57,player3,F SWE - BOT
+57,player3,F WES - TUN
+57,player5,F TUN H
+57,player6,F BOT - STP/SC
+57,player7,F BLA H
+57,player7,F ION S F TUN
+57,player7,A MOS S A WAR
+57,player7,F NAP S F TYS
+57,player7,A RUM H
+57,player7,A SEV H
+57,player7,A TUS S A PIE
+57,player7,F TYS S F TUN
+57,player7,A UKR S A WAR
+58,player1,A BOH S A TYR
+58,player1,A GAL S A WAR
+58,player1,A PIE S A TYR
+58,player1,A ROM S A TUS
+58,player1,A TYR S A BOH
+58,player1,A VEN S A PIE
+58,player1,A WAR S A MOS
+58,player3,F BAL H
+58,player3,F BAR H
+58,player3,A BER S A SIL
+58,player3,A BUR S A MUN
+58,player3,A DEN - SWE
+58,player3,F BOT H
+58,player3,F LYO - TYS
+58,player3,A MAR H
+58,player3,F MAO - WES
+58,player3,A MUN H
+58,player3,A NAF S F WES - TUN
+58,player3,A PRU S A SIL
+58,player3,A SIL H
+58,player3,F WES - TUN
+58,player5,F TUN H
+58,player6,F STP/SC C A MOS - SWI
+58,player7,F BLA H
+58,player7,F ION S F TUN
+58,player7,A MOS S F STP/SC
+58,player7,F NAP S F TYS
+58,player7,A RUM H
+58,player7,A SEV H
+58,player7,A TUS S A PIE
+58,player7,F TYS S F TUN
+58,player7,A UKR S A WAR
+59,player3,WAIVE
+59,player3,WAIVE
+60,player1,A BOH S A TYR
+60,player1,A GAL S A WAR
+60,player1,A PIE H
+60,player1,A ROM S A TUS
+60,player1,A TYR S A BOH
+60,player1,A VEN S A PIE
+60,player1,A WAR S A MOS
+60,player3,F BAL C A BER - FIN
+60,player3,F BAR H
+60,player3,A BER - FIN VIA
+60,player3,A BUR S A MUN
+60,player3,F BOT C A BER - FIN
+60,player3,F LYO - TYS
+60,player3,A MAR H
+60,player3,F MAO C A NAF - BRE
+60,player3,A MUN H
+60,player3,A NAF - BRE VIA
+60,player3,A PRU - LVN
+60,player3,A SIL - BER
+60,player3,A SWE - NWY
+60,player3,F WES S F LYO - TYS
+60,player5,F TUN H
+60,player6,F STP/SC C A MAR - SWI
+60,player7,F BLA H
+60,player7,F ION S F TUN
+60,player7,A MOS H
+60,player7,F NAP S F TYS
+60,player7,A RUM H
+60,player7,A SEV H
+60,player7,A TUS S A PIE
+60,player7,F TYS S F TUN
+60,player7,A UKR S A WAR
+61,player1,A BOH S A TYR
+61,player1,A GAL S A WAR
+61,player1,A PIE H
+61,player1,A ROM S A TUS
+61,player1,A TYR S A BOH
+61,player1,A VEN S A PIE
+61,player1,A WAR S A MOS
+61,player3,F BAL - BER
+61,player3,F BAR S A LVN - STP
+61,player3,A BER - KIE
+61,player3,A BRE H
+61,player3,A BUR S A MUN
+61,player3,A FIN S A LVN - STP
+61,player3,F BOT - BAL
+61,player3,F LYO - TYS
+61,player3,A LVN - STP
+61,player3,A MAR H
+61,player3,F MAO H
+61,player3,A MUN H
+61,player3,A NWY S A LVN - STP
+61,player3,F WES S F TUN
+61,player5,F TUN H
+61,player6,F STP/SC C A WAR - SWI
+61,player7,F BLA H
+61,player7,F ION S F TYS
+61,player7,A MOS S F STP/SC
+61,player7,F NAP S F TYS
+61,player7,A RUM H
+61,player7,A SEV S A MOS
+61,player7,A TUS S A PIE
+61,player7,F TYS S F TUN
+61,player7,A UKR S A WAR
+62,player6,F STP/SC R BOT
+63,player3,WAIVE
+63,player3,WAIVE
+63,player3,WAIVE
+63,player6,F BOT D
+64,player1,A BOH S A TYR
+64,player1,A GAL S A WAR
+64,player1,A PIE H
+64,player1,A ROM S A TUS
+64,player1,A TYR S A BOH
+64,player1,A VEN S A PIE
+64,player1,A WAR H
+64,player3,F BAL - KIE
+64,player3,F BAR - STP/NC
+64,player3,F BER H
+64,player3,A BRE - GAS
+64,player3,A BUR S A MUN
+64,player3,A FIN - SWE
+64,player3,F LYO - SPA/SC
+64,player3,A KIE - RUH
+64,player3,A MAR H
+64,player3,F MAO - POR
+64,player3,A MUN H
+64,player3,A NWY H
+64,player3,A STP - FIN
+64,player3,F WES - MAO
+64,player5,F TUN H
+64,player7,F BLA H
+64,player7,F ION S F TYS
+64,player7,A MOS H
+64,player7,F NAP S F TYS
+64,player7,A RUM S A UKR
+64,player7,A SEV S A MOS
+64,player7,A TUS S A PIE
+64,player7,F TYS S A TUS
+64,player7,A UKR S A MOS
+65,player1,A BOH S A TYR
+65,player1,A GAL S A WAR
+65,player1,A PIE H
+65,player1,A ROM S A TUS
+65,player1,A TYR S A BOH
+65,player1,A VEN S A PIE
+65,player1,A WAR S A GAL
+65,player3,F BER H
+65,player3,A BUR H
+65,player3,A FIN H
+65,player3,A GAS H
+65,player3,F KIE H
+65,player3,A MAR H
+65,player3,F MAO - ENG
+65,player3,A MUN H
+65,player3,A NWY H
+65,player3,F POR H
+65,player3,A RUH S A MUN
+65,player3,F SPA/SC - MAO
+65,player3,F STP/NC H
+65,player3,A SWE H
+65,player5,F TUN H
+65,player7,F BLA H
+65,player7,F ION H
+65,player7,A MOS H
+65,player7,F NAP H
+65,player7,A RUM S A UKR
+65,player7,A SEV H
+65,player7,A TUS H
+65,player7,F TYS H
+65,player7,A UKR H
+66,player3,WAIVE
+66,player3,WAIVE
+66,player3,WAIVE
+67,player1,A BOH S A TYR
+67,player1,A GAL S A WAR
+67,player1,A PIE H
+67,player1,A ROM S A VEN
+67,player1,A TYR S A PIE
+67,player1,A VEN S A ROM
+67,player1,A WAR H
+67,player3,F BER H
+67,player3,A BUR - MAR
+67,player3,F ENG H
+67,player3,A FIN - STP
+67,player3,A GAS - MAR
+67,player3,F KIE H
+67,player3,A MAR - SPA
+67,player3,F MAO H
+67,player3,A MUN H
+67,player3,A NWY - FIN
+67,player3,F POR H
+67,player3,A RUH S A MUN
+67,player3,F STP/NC - NWY
+67,player3,A SWE H
+67,player5,F TUN - ION
+67,player7,F BLA - CON
+67,player7,F ION - TUN
+67,player7,A MOS S A UKR
+67,player7,F NAP - APU
+67,player7,A RUM - BUL
+67,player7,A SEV - RUM
+67,player7,A TUS - ROM
+67,player7,F TYS S F ION - TUN
+67,player7,A UKR S A WAR
+68,player5,F TUN R WES
+69,player1,A BOH S A TYR
+69,player1,A GAL S A WAR
+69,player1,A PIE - MAR
+69,player1,A ROM S A VEN
+69,player1,A TYR S A BOH
+69,player1,A VEN S A ROM
+69,player1,A WAR S A MOS
+69,player3,F BER - PRU
+69,player3,A BUR - RUH
+69,player3,F ENG H
+69,player3,A FIN H
+69,player3,A GAS - BUR
+69,player3,F KIE - BAL
+69,player3,F MAO - SPA/NC
+69,player3,A MUN H
+69,player3,F NWY - SWE
+69,player3,F POR - SPA/NC
+69,player3,A RUH - KIE
+69,player3,A SPA - GAS
+69,player3,A STP - NWY
+69,player3,A SWE - DEN
+69,player5,F WES - TUN
+69,player7,F APU - ION
+69,player7,A BUL - CON
+69,player7,F CON - AEG
+69,player7,A MOS - WAR
+69,player7,A RUM H
+69,player7,F TUN S F TYS - WES
+69,player7,A TUS H
+69,player7,F TYS - WES
+69,player7,A UKR S A MOS - WAR
+70,player5,F WES D
+71,player1,A BUD B
+71,player3,WAIVE
+71,player3,WAIVE
+71,player7,F ANK B

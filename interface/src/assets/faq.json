@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "General",
+      "faq": [
+        {
+          "question": "What's DAOplomacy?",
+          "answer": "A game"
+        },
+        {
+          "question": "What's the goal of DAOplomacy?",
+          "answer": "Have fun, experiment, and learn"
+        }
+      ]
+    },
+    {
+      "name": "Rules",
+      "faq": [
+        {
+          "question": "Who wins the game?",
+          "answer": "Conquer x or more supply centers"
+        },
+        {
+          "question": "Can there be a draw?",
+          "answer": "Yes"
+        }
+      ]
+    }
+  ]
+}

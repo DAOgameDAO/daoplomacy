@@ -1,0 +1,221 @@
+{
+  "address": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_startBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_batchLength",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "startBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "currentBlockNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "StartBlockNotReachedError",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "blockNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "batchIndexForBlock",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "batchLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "batchIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "batchStartBlock",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "currentBatchIndex",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "currentBatchStartBlock",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "hasStarted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "blockNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "hasStartedAtBlock",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "startBlockNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xd4b4732a750fee5f2fafd4ad078ca8911ee1d7c82895fd6aae32c4ce1259b03c",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319",
+    "transactionIndex": 0,
+    "gasUsed": "385033",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x84cd52e559649f3e9dbe660f8859884d242fc21ee15f8ae13902dc15a683024d",
+    "transactionHash": "0xd4b4732a750fee5f2fafd4ad078ca8911ee1d7c82895fd6aae32c4ce1259b03c",
+    "logs": [],
+    "blockNumber": 26,
+    "cumulativeGasUsed": "385033",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "50",
+    "100"
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "a0c4416997147c1c7d7ddd4d65f9c649",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_startBlockNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_batchLength\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"startBlockNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"currentBlockNumber\",\"type\":\"uint256\"}],\"name\":\"StartBlockNotReachedError\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"blockNumber\",\"type\":\"uint256\"}],\"name\":\"batchIndexForBlock\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"batchLength\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"batchIndex\",\"type\":\"uint256\"}],\"name\":\"batchStartBlock\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"currentBatchIndex\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"currentBatchStartBlock\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"hasStarted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"blockNumber\",\"type\":\"uint256\"}],\"name\":\"hasStartedAtBlock\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"startBlockNumber\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BatchCounter.sol\":\"BatchCounter\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/BatchCounter.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity =0.8.9;\\n\\ncontract BatchCounter {\\n    error StartBlockNotReachedError(\\n        uint256 startBlockNumber,\\n        uint256 currentBlockNumber\\n    );\\n\\n    uint256 public startBlockNumber;\\n    uint256 public batchLength;\\n\\n    constructor(uint256 _startBlockNumber, uint256 _batchLength) {\\n        startBlockNumber = _startBlockNumber;\\n        batchLength = _batchLength;\\n    }\\n\\n    function hasStartedAtBlock(uint256 blockNumber) public view returns (bool) {\\n        return blockNumber >= startBlockNumber;\\n    }\\n\\n    function batchStartBlock(uint256 batchIndex) public view returns (uint256) {\\n        return startBlockNumber + batchIndex * batchLength;\\n    }\\n\\n    function batchIndexForBlock(uint256 blockNumber)\\n        public\\n        view\\n        returns (uint256)\\n    {\\n        if (blockNumber < startBlockNumber) {\\n            revert StartBlockNotReachedError(startBlockNumber, blockNumber);\\n        }\\n        return (blockNumber - startBlockNumber) / batchLength;\\n    }\\n\\n    function hasStarted() external view returns (bool) {\\n        return hasStartedAtBlock(block.number);\\n    }\\n\\n    function currentBatchIndex() external view returns (uint256) {\\n        return batchIndexForBlock(block.number);\\n    }\\n\\n    function currentBatchStartBlock() external view returns (uint256) {\\n        return batchStartBlock(block.number);\\n    }\\n}\\n\",\"keccak256\":\"0x8789e365bd4f81a25da304f82cc47f6ecd883504d581a6ec125cefb4591008de\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516105fa3803806105fa83398181016040528101906100329190610082565b816000819055508060018190555050506100c2565b600080fd5b6000819050919050565b61005f8161004c565b811461006a57600080fd5b50565b60008151905061007c81610056565b92915050565b6000806040838503121561009957610098610047565b5b60006100a78582860161006d565b92505060206100b88582860161006d565b9150509250929050565b610529806100d16000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c80636090b30e1161005b5780636090b30e146101175780637cc7719e14610135578063bce6404514610153578063e853f7c81461018357610088565b8063034d83921461008d57806344691f7e146100ab578063498a4c2d146100c95780635a5c196a146100e7575b600080fd5b6100956101b3565b6040516100a291906102a8565b60405180910390f35b6100b36101c3565b6040516100c091906102de565b60405180910390f35b6100d16101d3565b6040516100de91906102a8565b60405180910390f35b61010160048036038101906100fc919061032a565b6101d9565b60405161010e91906102a8565b60405180910390f35b61011f6101fd565b60405161012c91906102a8565b60405180910390f35b61013d61020d565b60405161014a91906102a8565b60405180910390f35b61016d6004803603810190610168919061032a565b610213565b60405161017a91906102a8565b60405180910390f35b61019d6004803603810190610198919061032a565b610281565b6040516101aa91906102de565b60405180910390f35b60006101be436101d9565b905090565b60006101ce43610281565b905090565b60005481565b6000600154826101e99190610386565b6000546101f691906103e0565b9050919050565b600061020843610213565b905090565b60015481565b6000805482101561025f57600054826040517f1d34bcd6000000000000000000000000000000000000000000000000000000008152600401610256929190610436565b60405180910390fd5b60015460005483610270919061045f565b61027a91906104c2565b9050919050565b600080548210159050919050565b6000819050919050565b6102a28161028f565b82525050565b60006020820190506102bd6000830184610299565b92915050565b60008115159050919050565b6102d8816102c3565b82525050565b60006020820190506102f360008301846102cf565b92915050565b600080fd5b6103078161028f565b811461031257600080fd5b50565b600081359050610324816102fe565b92915050565b6000602082840312156103405761033f6102f9565b5b600061034e84828501610315565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b60006103918261028f565b915061039c8361028f565b9250817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04831182151516156103d5576103d4610357565b5b828202905092915050565b60006103eb8261028f565b91506103f68361028f565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561042b5761042a610357565b5b828201905092915050565b600060408201905061044b6000830185610299565b6104586020830184610299565b9392505050565b600061046a8261028f565b91506104758361028f565b92508282101561048857610487610357565b5b828203905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b60006104cd8261028f565b91506104d88361028f565b9250826104e8576104e7610493565b5b82820490509291505056fea26469706673582212208f07af2a67666b70fec850fb933914f84a8af879b22ab8b6d529669d806fb3ea64736f6c63430008090033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c80636090b30e1161005b5780636090b30e146101175780637cc7719e14610135578063bce6404514610153578063e853f7c81461018357610088565b8063034d83921461008d57806344691f7e146100ab578063498a4c2d146100c95780635a5c196a146100e7575b600080fd5b6100956101b3565b6040516100a291906102a8565b60405180910390f35b6100b36101c3565b6040516100c091906102de565b60405180910390f35b6100d16101d3565b6040516100de91906102a8565b60405180910390f35b61010160048036038101906100fc919061032a565b6101d9565b60405161010e91906102a8565b60405180910390f35b61011f6101fd565b60405161012c91906102a8565b60405180910390f35b61013d61020d565b60405161014a91906102a8565b60405180910390f35b61016d6004803603810190610168919061032a565b610213565b60405161017a91906102a8565b60405180910390f35b61019d6004803603810190610198919061032a565b610281565b6040516101aa91906102de565b60405180910390f35b60006101be436101d9565b905090565b60006101ce43610281565b905090565b60005481565b6000600154826101e99190610386565b6000546101f691906103e0565b9050919050565b600061020843610213565b905090565b60015481565b6000805482101561025f57600054826040517f1d34bcd6000000000000000000000000000000000000000000000000000000008152600401610256929190610436565b60405180910390fd5b60015460005483610270919061045f565b61027a91906104c2565b9050919050565b600080548210159050919050565b6000819050919050565b6102a28161028f565b82525050565b60006020820190506102bd6000830184610299565b92915050565b60008115159050919050565b6102d8816102c3565b82525050565b60006020820190506102f360008301846102cf565b92915050565b600080fd5b6103078161028f565b811461031257600080fd5b50565b600081359050610324816102fe565b92915050565b6000602082840312156103405761033f6102f9565b5b600061034e84828501610315565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b60006103918261028f565b915061039c8361028f565b9250817fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04831182151516156103d5576103d4610357565b5b828202905092915050565b60006103eb8261028f565b91506103f68361028f565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561042b5761042a610357565b5b828201905092915050565b600060408201905061044b6000830185610299565b6104586020830184610299565b9392505050565b600061046a8261028f565b91506104758361028f565b92508282101561048857610487610357565b5b828203905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b60006104cd8261028f565b91506104d88361028f565b9250826104e8576104e7610493565b5b82820490509291505056fea26469706673582212208f07af2a67666b70fec850fb933914f84a8af879b22ab8b6d529669d806fb3ea64736f6c63430008090033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 1424,
+        "contract": "contracts/BatchCounter.sol:BatchCounter",
+        "label": "startBlockNumber",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 1426,
+        "contract": "contracts/BatchCounter.sol:BatchCounter",
+        "label": "batchLength",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
