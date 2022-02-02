@@ -6,7 +6,7 @@ import PlannerPage from "./pages/PlannerPage.vue";
 
 const routes = [
   {
-    path: "/game",
+    path: "/",
     name: "game",
     component: GamePage,
   },
