@@ -15,6 +15,7 @@ contract OrderCollector {
     );
 
     BatchCounter public batchCounter;
+    // orderLimits implicitly defines the player set
     mapping(address => uint256) public orderLimits; // sender => max num txs
     mapping(uint256 => mapping(address => uint256)) public numOrders; // batch index => sender => num txs
 
