@@ -129,16 +129,23 @@ task("close-batch", "Mine until the end of the current batch").setAction(
   async (_, hre) => {
     const batchCounter = await hre.ethers.getContract("BatchCounter");
 
-    const batchIndex = await batchCounter.currentBatchIndex();
-    const nextBatchIndex = batchIndex.add(1);
+    let nextBatchIndex;
+    const hasStarted = await batchCounter.hasStarted();
+    if (!hasStarted) {
+      nextBatchIndex = 0;
+    } else {
+      const batchIndex = await batchCounter.currentBatchIndex();
+      nextBatchIndex = batchIndex.add(1);
+    }
     const nextBatchStartBlock = await batchCounter.batchStartBlock(
       nextBatchIndex
     );
+
     console.log(
       "mining until block",
       nextBatchStartBlock.toString(),
       "to finish batch",
-      batchIndex.toString()
+      (nextBatchIndex - 1).toString()
     );
     await mineUntil(nextBatchStartBlock);
   }
