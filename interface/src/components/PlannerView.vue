@@ -1,16 +1,5 @@
 <template>
   <div class="w-full mb-8">
-    <!-- <h1 class="mt-8 text-6xl font-bold text-center">Order Planner</h1>
-
-    <div class="flex justify-center mt-6 mb-6">
-      <p class="max-w-3xl text-center">
-        Plan out an order using the form below. The result is a calldata string
-        containing the order in encrypted form. This string is what the DAO
-        controlling the unit has to send to the blockchain in order to execute
-        the order.
-      </p>
-    </div> -->
-
     <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center">
       <div>
         <div class="grid grid-cols-1 gap-y-2">
