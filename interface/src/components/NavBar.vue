@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-yellow-100 text-lg shadow-sm">
+  <nav class="bg-water text-lg shadow-sm font-bold text-land">
     <div class="max-w-screen-lg mx-auto px-3">
       <div class="flex justify-between items-center space-x-3">
         <div class="py-3">

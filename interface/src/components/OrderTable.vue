@@ -9,8 +9,8 @@
       <table class="table-fixed mx-auto w-full">
         <thead>
           <tr>
-            <th class="font-bold text-gray-400 text-left w-3/4">Order</th>
-            <th class="font-bold text-gray-400 text-right w-1/4">Effect</th>
+            <th class="font-bold text-water text-left w-3/4">Order</th>
+            <th class="font-bold text-water text-right w-1/4">Effect</th>
           </tr>
         </thead>
 

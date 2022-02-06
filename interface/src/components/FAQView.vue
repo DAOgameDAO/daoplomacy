@@ -6,7 +6,7 @@
         <div v-for="(faq, j) in group.faq" :key="faq.question">
           <div>
             <div
-              class="flex items-center mb-2"
+              class="flex items-center mb-2 cursor-pointer"
               @click="open[i][j] = !open[i][j]"
             >
               <div class="w-5 mr-2">

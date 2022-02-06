@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-100 shadow-sm">
+  <div class="bg-water shadow-sm">
     <div class="max-w-screen-lg mx-auto px-3 py-3">
       <p class="text-center">DAOplomacy is a project by theDAOgameDAO</p>
 

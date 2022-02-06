@@ -5,6 +5,10 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors: {
+        water: "#437082",
+        land: "#CCCCCC",
+      },
       fontFamily: {
         sans: ["Space grotesk", ...defaultTheme.fontFamily.sans],
       },
