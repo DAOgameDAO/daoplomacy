@@ -82,7 +82,7 @@ export function parseUnitLocation(
   };
 }
 
-function parseCoast(s: string): Coast | null {
+export function parseCoast(s: string): Coast | null {
   switch (s.toLowerCase()) {
     case "nc":
       return Coast.North;

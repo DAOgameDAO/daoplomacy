@@ -167,3 +167,24 @@ export interface OrderResults {
   dislodged: boolean;
   void: boolean;
 }
+
+export interface Map {
+  viewbox: Number[];
+  backgroundEllipse: Number[];
+  powers: Power[];
+  provinces: { [key: Province]: ProvinceData };
+}
+
+export interface ProvinceData {
+  path: string;
+  type: ProvinceType;
+  impassable: boolean;
+  unitCoords?: Number[];
+  centerCoords?: Number[] | null;
+  coastUnitCoords?: { [_ in Coast]?: Number[] };
+}
+
+export enum ProvinceType {
+  Land = 1,
+  Water,
+}

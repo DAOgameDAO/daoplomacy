@@ -1,65 +1,80 @@
 <template>
-  <div
-    class="w-full cursor-grab shadow-lg border-2 border-black rounded-xl"
-    :class="{ 'cursor-grab': !panning, 'cursor-grabbing': panning }"
-  >
-    <panZoom
-      selector="#map"
-      :options="{
-        smoothScroll: false,
-        bounds: true,
-        boundsPadding: 0,
-        beforeWheel: panZoomBeforeWheel,
-      }"
-      @init="panZoomInit"
-      @zoom="panZoomZoom"
-      @mousedown="panZoomPanStart"
-      @mouseup="panZoomPanEnd"
+  <div>
+    <div
+      class="w-full cursor-grab shadow-lg border-2 border-black rounded-xl"
+      :class="{ 'cursor-grab': !panning, 'cursor-grabbing': panning }"
     >
-      <div class="aspect-w-16 aspect-h-9">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <g id="map">
+      <panZoom
+        selector="#map"
+        :options="{
+          smoothScroll: false,
+          bounds: true,
+          boundsPadding: 0,
+          beforeWheel: panZoomBeforeWheel,
+        }"
+        @init="panZoomInit"
+        @zoom="panZoomZoom"
+        @mousedown="panZoomPanStart"
+        @mouseup="panZoomPanEnd"
+      >
+        <div class="aspect-w-16 aspect-h-10 bg-land">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
             <g>
-              <Province
-                v-for="(prov, key) in map.provinces"
-                :key="key"
-                :province="key"
-                :controllingPower="controlledProvinces[key]"
-              />
+              <g id="map">
+                <ellipse
+                  :cx="map.backgroundEllipse[0]"
+                  :cy="map.backgroundEllipse[1]"
+                  :rx="map.backgroundEllipse[2]"
+                  :ry="map.backgroundEllipse[3]"
+                  stroke="black"
+                  stroke-width="10"
+                />
+                <g>
+                  <Province
+                    v-for="(prov, key) in map.provinces"
+                    :key="key"
+                    :province="key"
+                    :controllingPower="controlledProvinces[key]"
+                    :scale="scale"
+                  />
+                </g>
+                <g>
+                  <Unit
+                    v-for="unit in units"
+                    :key="unit.location.province + unit.location.dislodged"
+                    :unit="unit"
+                    :scale="scale"
+                  />
+                </g>
+                <g>
+                  <Order
+                    v-for="order in ordersFlat"
+                    :key="order.power + order.rawOrder"
+                    :order="order.parsedOrder"
+                    :orderResults="order.results"
+                    :scale="scale"
+                  />
+                </g>
+              </g>
             </g>
-            <g>
-              <Unit
-                v-for="unit in units"
-                :key="unit.location.province + unit.location.dislodged"
-                :unit="unit"
-                :scale="scale"
-              />
-            </g>
-            <g>
-              <Order
-                v-for="order in ordersFlat"
-                :key="order.power + order.rawOrder"
-                :order="order.parsedOrder"
-                :orderResults="order.results"
-                :scale="scale"
-              />
-            </g>
-          </g>
-        </svg>
-      </div>
-    </panZoom>
+          </svg>
+        </div>
+      </panZoom>
+    </div>
+    <p class="text-sm text-right mt-0 mr-1">zoom with ctrl + mouse wheel</p>
   </div>
 </template>
 
 <script>
 import _ from "lodash";
-import map from "../assets/map.json";
 import Province from "./svg/Province.vue";
 import Unit from "./svg/Unit.vue";
 import Order from "./svg/Order.vue";
+import map from "../map.ts";
 import { parseUnit } from "../parsers.ts";
 
-const ZOOM_SCALE_RANGE = [1.0, 3.0];
+// const ZOOM_SCALE_RANGE = [1.0, 500000.0];
+const MIN_ZOOM_SCALE = 1.0;
 
 export default {
   name: "Map",
@@ -90,7 +105,8 @@ export default {
     scale() {
       return (
         30 /
-        Math.min(Math.max(this.zoom, ZOOM_SCALE_RANGE[0]), ZOOM_SCALE_RANGE[1])
+        // Math.min(Math.max(this.zoom, ZOOM_SCALE_RANGE[0]), ZOOM_SCALE_RANGE[1])
+        Math.max(this.zoom, MIN_ZOOM_SCALE)
       );
     },
 
@@ -100,7 +116,7 @@ export default {
       }
 
       let provs = {};
-      for (const [power, provinces] of Object.entries(this.state.centers)) {
+      for (const [power, provinces] of Object.entries(this.state.influence)) {
         for (const prov of provinces) {
           provs[prov.toLowerCase()] = power.toLowerCase();
         }

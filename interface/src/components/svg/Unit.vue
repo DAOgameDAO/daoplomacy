@@ -76,10 +76,15 @@ export default {
     },
 
     fill() {
-      return powerBaseColors[this.unit.power.toUpperCase()].toString();
+      return powerBaseColors[this.unit.power.toUpperCase()]
+        .saturate(5)
+        .toString();
     },
     stroke() {
-      return powerBaseColors[this.unit.power.toUpperCase()].darken().toString();
+      return powerBaseColors[this.unit.power.toUpperCase()]
+        .saturate(5)
+        .darken(2)
+        .toString();
     },
   },
 };
