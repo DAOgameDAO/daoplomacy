@@ -1,7 +1,9 @@
 <template>
   <div class="bg-water shadow-sm">
     <div class="max-w-screen-lg mx-auto px-3 py-3">
-      <p class="text-center">DAOplomacy is a project by theDAOgameDAO</p>
+      <p class="text-center text-land font-bold">
+        DAOplomacy is a project by DAOgameDAO
+      </p>
 
       <div class="mt-4 flex justify-center gap-x-8">
         <a href="https://twitter.com">
