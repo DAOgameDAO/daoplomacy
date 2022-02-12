@@ -4,6 +4,7 @@ import svgLoader from "vite-svg-loader";
 import content from "@originjs/vite-plugin-content";
 
 export default defineConfig({
+  base: "./",
   plugins: [
     vue({
       template: {
