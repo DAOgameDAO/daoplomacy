@@ -100,5 +100,5 @@ def generate_name(freqs):
 
 if __name__ == "__main__":
     char_freqs = get_char_freqs("".join(ORIGINAL_NAMES))
-    for _ in range(10):
+    for _ in range(500):
         print(generate_name(char_freqs))
