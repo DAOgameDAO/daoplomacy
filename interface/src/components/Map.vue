@@ -17,7 +17,7 @@
         @mousedown="panZoomPanStart"
         @mouseup="panZoomPanEnd"
       >
-        <div class="aspect-w-16 aspect-h-10 bg-land">
+        <div class="aspect-w-16 aspect-h-10 bg-black">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
             <g>
               <g id="map">
