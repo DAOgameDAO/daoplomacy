@@ -12,11 +12,13 @@
               <div class="w-5 mr-2">
                 <Caret :open="open[i][j]" />
               </div>
-              <h2 class="text-2xl">
-                {{ faq.question }}
-              </h2>
+              <h2 class="text-2xl" v-html="formatMarkdown(faq.question)"></h2>
             </div>
-            <p v-show="open[i][j]" class="ml-4">{{ faq.answer }}</p>
+            <div
+              v-show="open[i][j]"
+              class="ml-4"
+              v-html="formatMarkdown(faq.answer)"
+            />
           </div>
         </div>
       </div>
@@ -26,6 +28,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { marked } from "marked";
 import * as faqData from "../assets/faq.json";
 import Caret from "./Caret.vue";
 
@@ -50,6 +53,11 @@ export default defineComponent({
   computed: {
     data() {
       return faqData;
+    },
+  },
+  methods: {
+    formatMarkdown(s) {
+      return marked(s);
     },
   },
 });
