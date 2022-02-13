@@ -73,7 +73,6 @@ import Order from "./svg/Order.vue";
 import map from "../map.ts";
 import { parseUnit } from "../parsers.ts";
 
-// const ZOOM_SCALE_RANGE = [1.0, 500000.0];
 const MIN_ZOOM_SCALE = 1.0;
 
 export default {
@@ -103,11 +102,7 @@ export default {
 
   computed: {
     scale() {
-      return (
-        30 /
-        // Math.min(Math.max(this.zoom, ZOOM_SCALE_RANGE[0]), ZOOM_SCALE_RANGE[1])
-        Math.max(this.zoom, MIN_ZOOM_SCALE)
-      );
+      return 30 / Math.max(this.zoom, MIN_ZOOM_SCALE);
     },
 
     controlledProvinces() {
@@ -178,9 +173,7 @@ export default {
     },
     panZoomZoom(e) {
       const newZoom = e.getTransform().scale;
-      // if (Math.abs(newScale / this.scale - 1) > 0.01) {
       this.zoom = newZoom;
-      // }
     },
     panZoomPanStart() {
       this.panning = true;
