@@ -2,20 +2,34 @@ import { ethers } from "ethers";
 import * as OrderCollectorDeployment from "./assets/deployment/OrderCollector.json";
 import * as BatchCounterDeployment from "./assets/deployment/BatchCounter.json";
 
+export const contractsDeployed = !!parseInt(
+  import.meta.env.VITE_CONTRACTS_DEPLOYED
+);
+
 export const provider = new ethers.providers.JsonRpcProvider(
   import.meta.env.VITE_ETHEREUM_RPC_URL
 );
 
-export const orderCollector = new ethers.Contract(
-  OrderCollectorDeployment.address,
-  OrderCollectorDeployment.abi,
-  provider
-);
+export let orderCollector: ethers.Contract | null;
+export let batchCounter: ethers.Contract | null;
+if (contractsDeployed) {
+  orderCollector = new ethers.Contract(
+    OrderCollectorDeployment.address,
+    OrderCollectorDeployment.abi,
+    provider
+  );
+  batchCounter = new ethers.Contract(
+    BatchCounterDeployment.address,
+    BatchCounterDeployment.abi,
+    provider
+  );
+} else {
+  orderCollector = null;
+  batchCounter = null;
+}
 
-export const batchCounter = new ethers.Contract(
-  BatchCounterDeployment.address,
-  BatchCounterDeployment.abi,
-  provider
+const orderCollectorInterface = new ethers.utils.Interface(
+  OrderCollectorDeployment.abi
 );
 
 export function encodeOrderSubmissionCalldata(
@@ -23,7 +37,7 @@ export function encodeOrderSubmissionCalldata(
   encryptedOrder: string
 ): string {
   const params = [phase, encryptedOrder];
-  return orderCollector.interface.encodeFunctionData(
+  return orderCollectorInterface.encodeFunctionData(
     "submitEncryptedOrder",
     params
   );
@@ -32,7 +46,7 @@ export function encodeOrderSubmissionCalldata(
 export function decodeOrderSubmissionCalldata(
   calldata: string
 ): [number, string] {
-  const r = orderCollector.interface.decodeFunctionData(
+  const r = orderCollectorInterface.decodeFunctionData(
     "submitEncryptedOrder",
     ethers.utils.arrayify(calldata)
   );

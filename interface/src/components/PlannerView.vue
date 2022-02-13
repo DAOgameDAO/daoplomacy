@@ -243,6 +243,9 @@ export default {
     },
 
     orderCollectorAddress() {
+      if (!orderCollector) {
+        return "The order collector has not been deployed yet.";
+      }
       return orderCollector.address;
     },
 
