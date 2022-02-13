@@ -6,7 +6,12 @@ shcrypto.init(import.meta.env.VITE_SHCRYPTO_WASM_URL);
 const passphraseChars =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-const eonKey = ethers.utils.arrayify(import.meta.env.VITE_EON_KEY);
+export let eonKey: Uint8Array | null;
+if (import.meta.env.VITE_EON_KEY.length > 0) {
+  eonKey = ethers.utils.arrayify(import.meta.env.VITE_EON_KEY);
+} else {
+  eonKey = null;
+}
 
 export function randomPassphrase(length: number): string {
   let p = "";

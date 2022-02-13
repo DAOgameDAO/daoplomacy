@@ -113,7 +113,7 @@ import { mapState } from "vuex";
 import { PhaseType } from "../types";
 import { formatPhase, formatOrder } from "../formatters";
 import { parseUnit, parseOrder } from "../parsers";
-import { randomPassphrase, encrypt } from "../crypto";
+import { randomPassphrase, encrypt, eonKey } from "../crypto";
 import { orderCollector, encodeOrderSubmissionCalldata } from "../contracts";
 import OrderSelector from "./OrderSelector.vue";
 import PhaseSelector from "./PhaseSelector.vue";
@@ -370,6 +370,11 @@ export default {
     },
 
     async setCalldata() {
+      if (!eonKey) {
+        this.calldata = "Orders cannot be submitted yet.";
+        return;
+      }
+
       this.calldata = "";
       if (!this.plaintextOrder) {
         return;
