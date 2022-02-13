@@ -1,7 +1,11 @@
 <template>
   <div class="flex justify-center my-3">
     <div>
-      <p v-if="phaseStarted && !phaseEnded" class="text-center">
+      <p v-if="!contractsDeployed" class="text-center">
+        The order collector contract has not been deployed yet, so orders cannot
+        be submitted at this time.
+      </p>
+      <p v-else-if="phaseStarted && !phaseEnded" class="text-center">
         The selected phase is currently in progress. The order collector
         contract is accepting encrypted orders.
       </p>
@@ -10,11 +14,11 @@
         be submitted at this time.
       </p>
       <p v-else-if="phaseEnded" class="text-center">
-        The selected phase has ended. Waiting for submitted orders to be
-        decrypted...
+        The selected phase has ended. Waiting for the submitted orders to be
+        decrypted.
       </p>
 
-      <table class="table-fixed mx-auto mt-4 mb-4">
+      <table v-if="contractsDeployed" class="table-fixed mx-auto mt-4 mb-4">
         <tbody>
           <tr>
             <th class="font-bold text-gray-400 text-right pr-4">Phase index</th>
@@ -41,7 +45,7 @@
 </template>
 
 <script>
-import { provider, batchCounter } from "../contracts";
+import { provider, batchCounter, contractsDeployed } from "../contracts";
 
 export default {
   name: "PhaseStatusView",
@@ -56,6 +60,9 @@ export default {
   },
 
   computed: {
+    contractsDeployed() {
+      return contractsDeployed;
+    },
     phaseStarted() {
       if (this.currentBlockNumber === null || this.startBlockNumber === null) {
         return null;
@@ -90,6 +97,9 @@ export default {
         this.endBlockNumber = null;
 
         if (!this.phase) {
+          return;
+        }
+        if (!this.contractsDeployed) {
           return;
         }
 
