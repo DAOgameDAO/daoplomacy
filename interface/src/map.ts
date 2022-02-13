@@ -4,8 +4,6 @@ import { parseCoast } from "./parsers";
 import { UnknownProvince } from "./error";
 import mapSVG from "./assets/map.svg.xml";
 
-console.log(mapSVG);
-
 const powers: types.Power[] = [
   "austria",
   "england",
