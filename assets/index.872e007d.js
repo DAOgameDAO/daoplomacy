@@ -6,7 +6,7 @@ Read more about [DAOs (Decentralized Autonomous Organizations)](https://decrypt.
 
 - boost DAO engagement (and voting) and interest in the topic
 - educate people about DAOs
-- test and prototype various governance mechanisms`},{question:"Who can join the game?",answer:"We want a diverse set of DAOs to be part of the initial cohort, including both new and established DAOs. If you think your DAO should take part, [please read the invitation letter for instructions how to apply](https://daogamedao.substack.com/p/741ce014-c209-4040-b9eb-f8b758ceaba4)."},{question:"Is there a prize?",answer:`Yes! The winning DAO(s) will receive a prize, but we won\u2019t tell you what it is yet.
+- test and prototype various governance mechanisms`},{question:"Who can join the game?",answer:"We want a diverse set of DAOs to be part of the initial cohort, including both new and established DAOs. If you think your DAO should take part, [please read the invitation letter for instructions how to apply](https://daogamedao.substack.com/p/dear-daoplomat)."},{question:"Is there a prize?",answer:`Yes! The winning DAO(s) will receive a prize, but we won\u2019t tell you what it is yet.
 
 In addition, all participants will receive DAOgameDAO governance tokens. The distribution will be designed to especially reward the more active players and the winners.`},{question:"What's DAOgameDAO?",answer:`DAOgameDAO aims to coordinate people and resources around multiplayer games that are played by DAOs. Yes, it is also a DAO.
 
