@@ -1,0 +1,44 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Application.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity =0.8.9;\n\ncontract Application {\n    event ApplicationSubmitted(address sender, string applicationIpfsCid);\n\n    function submitApplication(string calldata applicationIpfsCid) external {\n        emit ApplicationSubmitted(msg.sender, applicationIpfsCid);\n    }\n}\n"
+    },
+    "contracts/BatchCounter.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity =0.8.9;\n\ncontract BatchCounter {\n    error StartBlockNotReachedError(\n        uint256 startBlockNumber,\n        uint256 currentBlockNumber\n    );\n\n    uint256 public startBlockNumber;\n    uint256 public batchLength;\n\n    constructor(uint256 _startBlockNumber, uint256 _batchLength) {\n        startBlockNumber = _startBlockNumber;\n        batchLength = _batchLength;\n    }\n\n    function hasStartedAtBlock(uint256 blockNumber) public view returns (bool) {\n        return blockNumber >= startBlockNumber;\n    }\n\n    function batchStartBlock(uint256 batchIndex) public view returns (uint256) {\n        return startBlockNumber + batchIndex * batchLength;\n    }\n\n    function batchIndexForBlock(uint256 blockNumber)\n        public\n        view\n        returns (uint256)\n    {\n        if (blockNumber < startBlockNumber) {\n            revert StartBlockNotReachedError(startBlockNumber, blockNumber);\n        }\n        return (blockNumber - startBlockNumber) / batchLength;\n    }\n\n    function hasStarted() external view returns (bool) {\n        return hasStartedAtBlock(block.number);\n    }\n\n    function currentBatchIndex() public view returns (uint256) {\n        return batchIndexForBlock(block.number);\n    }\n\n    function currentBatchStartBlock() external view returns (uint256) {\n        return batchStartBlock(currentBatchIndex());\n    }\n}\n"
+    },
+    "contracts/OrderCollector.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity =0.8.9;\n\nimport {BatchCounter} from \"./BatchCounter.sol\";\n\ncontract OrderCollector {\n    error OrderLimitExceededError(address sender, uint256 batchIndex);\n    error WrongBatchIndexError(uint256 batchIndex, uint256 currentBatchIndex);\n\n    event EncryptedOrderSubmitted(\n        uint256 batchIndex,\n        address sender,\n        bytes encryptedOrder\n    );\n\n    BatchCounter public batchCounter;\n    // orderLimits implicitly defines the player set\n    mapping(address => uint256) public orderLimits; // sender => max num txs\n    mapping(uint256 => mapping(address => uint256)) public numOrders; // batch index => sender => num txs\n\n    constructor(\n        BatchCounter _batchCounter,\n        address[] memory players,\n        uint256 orderLimit\n    ) {\n        batchCounter = _batchCounter;\n\n        // number of players is small, so iterating is fine\n        for (uint256 i = 0; i < players.length; i++) {\n            orderLimits[players[i]] = orderLimit;\n        }\n    }\n\n    function submitEncryptedOrder(\n        uint256 batchIndex,\n        bytes memory encryptedOrder\n    ) external {\n        if (batchIndex != batchCounter.currentBatchIndex()) {\n            revert WrongBatchIndexError(\n                batchIndex,\n                batchCounter.currentBatchIndex()\n            );\n        }\n        if (numOrders[batchIndex][msg.sender] >= orderLimits[msg.sender]) {\n            revert OrderLimitExceededError(msg.sender, batchIndex);\n        }\n        numOrders[batchIndex][msg.sender]++;\n\n        emit EncryptedOrderSubmitted({\n            batchIndex: batchIndex,\n            sender: msg.sender,\n            encryptedOrder: encryptedOrder\n        });\n    }\n}\n"
+    },
+    "contracts/KeyBroadcast.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity =0.8.9;\n\ninterface AddrsSeq {\n    function at(uint64 n, uint64 i) external view returns (address);\n}\n\ncontract KeyBroadcast {\n    event EonKey(uint64 activationBlockNumber, bytes key, address keyper);\n    event DecryptionKey(bytes8 epochID, bytes key, address keyper);\n    error SenderNotKeyper();\n\n    AddrsSeq public keypers;\n\n    constructor(AddrsSeq _keypers) {\n        keypers = _keypers;\n    }\n\n    function broadcastEonKey(\n        uint64 n,\n        uint64 i,\n        uint64 activationBlockNumber,\n        bytes calldata key\n    ) external {\n        if (msg.sender != keypers.at(n, i)) {\n            revert SenderNotKeyper();\n        }\n        emit EonKey({\n            activationBlockNumber: activationBlockNumber,\n            key: key,\n            keyper: msg.sender\n        });\n    }\n\n    function broadcastDecryptionKey(\n        uint64 n,\n        uint64 i,\n        bytes8 epochID,\n        bytes calldata k\n    ) external {\n        if (msg.sender != keypers.at(n, i)) {\n            revert SenderNotKeyper();\n        }\n        emit DecryptionKey({epochID: epochID, key: k, keyper: msg.sender});\n    }\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

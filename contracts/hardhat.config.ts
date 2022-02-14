@@ -158,9 +158,16 @@ module.exports = {
   paths: {
     tests: "./tests",
   },
+  networks: {
+    gnosis: {
+      url: "https://rpc.gnosischain.com/",
+      accounts: [""],
+    },
+  },
   namedAccounts: {
     deployer: {
       31337: 0,
+      100: 0,
     },
     shutterExecutor: {
       31337: 1,
