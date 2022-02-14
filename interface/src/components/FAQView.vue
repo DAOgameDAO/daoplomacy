@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-4">
     <div v-for="(group, i) in data.groups" :key="group.name">
       <h1 class="text-4xl mt-8 mb-4">{{ group.name }}</h1>
       <div class="grid grid-cols-1 gap-y-5">

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container max-w-screen-md mx-auto">
     <FAQView />
   </div>
 </template>
