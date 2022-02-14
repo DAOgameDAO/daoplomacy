@@ -39,7 +39,7 @@ contract BatchCounter {
         return hasStartedAtBlock(block.number);
     }
 
-    function currentBatchIndex() external view returns (uint256) {
+    function currentBatchIndex() public view returns (uint256) {
         return batchIndexForBlock(block.number);
     }
 
