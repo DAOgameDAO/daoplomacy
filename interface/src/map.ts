@@ -5,16 +5,18 @@ import { UnknownProvince } from "./error";
 import mapSVG from "./assets/map.svg.xml";
 
 const powers: types.Power[] = [
-  "austria",
-  "england",
-  "france",
-  "germany",
-  "italy",
-  "russia",
-  "turkey",
+  "alpha",
+  "beta",
+  "gamma",
+  "delta",
+  "epsilon",
+  "zeta",
+  "eta",
 ];
 const dislodgeOffset: Number[] = [25, -25];
 const map = parseMap(mapSVG);
+
+console.log(map);
 
 function parseMap(svg: types.Map): any {
   const viewbox = parseViewBox(svg);

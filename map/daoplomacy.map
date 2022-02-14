@@ -1,0 +1,213 @@
+BEGIN SPRING 1901 MOVEMENT
+
+ALPHA     (ALPHIAN)     CSM BAE OEB
+A CSM
+A OEB
+F BAE
+
+BETA      (BETIAN)      YLR YSE ONE
+F YLR
+F YSE
+A ONE
+
+GAMMA     (GAMMIAN)     AAP EBW MAR
+F AAP
+A EBW
+A MAR
+
+DELTA     (DELTIAN)     EPR NMU RIW
+F NMU
+A EPR
+A RIW
+
+EPSILON   (EPSILIAN)    RSD RBT RRO
+F RSD
+A RBT
+A RRO
+
+ZETA      (ZETIAN)      BGS OIA SWT OHA
+A OHA
+A BGS
+F OIA
+F SWT/SC
+
+ETA       (ETIAN)       LOW AWG NBW
+F LOW
+A AWG
+A NBW
+
+UNOWNED                    GNK URN SAM MTO ORR ISG OUT IHP AVU MAL GOE VEA
+
+Rka               = RKA
+Ifn               = IFN
+Aon               = AON
+Low               = LOW
+Pwn               = PWN
+Ebv               = EBV
+Ays               = AYS
+Phs               = PHS
+Gnk               = GNK
+Epr               = EPR
+Iog               = IOG
+Neu               = NEU
+Aap               = AAP
+Csm               = CSM
+Urn (east coast)  = URN/ec
+Urn (south coast) = URN/sc
+Urn               = URN
+Nge               = NGE
+Mmm               = MMM
+Awg               = AWG
+Sam               = SAM
+Rvs               = RVS
+Ylr               = YLR
+Rpu               = RPU
+Sar               = SAR
+Srn               = SRN
+Olb               = OLB
+Mto               = MTO
+Iuk               = IUK
+Pyu               = PYU
+Ohl               = OHL
+Orr               = ORR
+Kre               = KRE
+Sww               = SWW
+Nmu               = NMU
+One               = ONE
+Wog               = WOG
+Yse               = YSE
+Ebw               = EBW
+Ore               = ORE
+Bgs               = BGS
+Riw               = RIW
+Rsd               = RSD
+Bpe               = BPE
+Gmb               = GMB
+Fse               = FSE
+Isg               = ISG
+Glr               = GLR
+Mar               = MAR
+Gvr               = GVR
+Aaa               = AAA
+Out               = OUT
+Nen               = NEN
+Rbt               = RBT
+Ral               = RAL
+Ihp               = IHP
+Avu               = AVU
+Oia               = OIA
+Yye               = YYE
+Svl               = SVL
+Nbw               = NBW
+Mal (north coast) = MAL/nc
+Mal (south coast) = MAL/sc
+Mal               = MAL
+Swt (north coast) = SWT/nc
+Swt (south coast) = SWT/sc
+Swt               = SWT
+Goe               = GOE
+Ber               = BER
+Bae               = BAE
+Vea               = VEA
+Lle               = LLE
+Ups               = UPS
+Gba               = GBA
+Rra               = RRA
+Rro               = RRO
+Oeb               = OEB
+Guv               = GUV
+Oha               = OHA
+Eho               = EHO
+Bro               = BRO
+
+#    ----------------------------------------------------------------
+#    Location adjacency information, keyed off the official dpjudge
+#    name of the location.  Here, upper- and lower-case IS important.
+#    ----------------------------------------------------------------
+WATER    RKA        ABUTS    AON PWN KRE BAE RRO
+WATER    IFN        ABUTS    URN/SC AWG RVS MTO KRE NBW
+COAST    AON        ABUTS    RKA MTO KRE AVU BAE
+COAST    LOW        ABUTS    EBV IOG AWG NBW
+COAST    PWN        ABUTS    RKA KRE RSD RBT RRO
+COAST    EBV        ABUTS    LOW IOG OIA NBW BER
+WATER    AYS        ABUTS    EPR PYU SAM WOG NMU NEN GOE
+WATER    PHS        ABUTS    ISG GLR SWT/NC
+COAST    GNK        ABUTS    NGE RPU ORR FSE GVR RAL
+COAST    EPR        ABUTS    AYS NMU RIW NEN YYE
+WATER    IOG        ABUTS    LOW EBV URN/EC AWG IHP OIA
+LAND     NEU        ABUTS    SRN RIW YYE UPS OEB
+WATER    PYU        ABUTS    AYS SAR WOG SWT/SC GOE
+COAST    AAP        ABUTS    RPU OLB ORE MAR GVR
+LAND     CSM        ABUTS    SRN IHP AVU BAE OEB
+COAST    URN/EC     ABUTS    IOG AWG IHP
+COAST    URN/SC     ABUTS    IFN AWG MTO
+COAST    URN        ABUTS    IFN IOG AWG MTO IHP AVU
+LAND     NGE        ABUTS    GNK OLB RAL EBW RIW MAR GVR SWI
+COAST    MMM        ABUTS    YLR ONE BPE GLR
+COAST    AWG        ABUTS    IFN URN/EC URN/SC IOG LOW NBW
+COAST    SAM        ABUTS    AYS OHL NMU FSE SVL GOE
+WATER    RVS        ABUTS    IFN KRE NBW BER
+COAST    YLR        ABUTS    MMM ONE FSE GLR BRO
+WATER    RPU        ABUTS    GNK AAP SWW YSE ORE FSE GVR GUV
+COAST    SAR        ABUTS    PYU ISG SWT/SC GOE
+LAND     SRN        ABUTS    NEU CSM IHP YYE RRA OEB OHA
+COAST    OLB        ABUTS    NGE AAP ORE EBW MAR MAL/NC
+COAST    MTO        ABUTS    IFN AON URN/SC KRE AVU
+WATER    OHL        ABUTS    SAM ORR NMU FSE
+COAST    ORR        ABUTS    GNK OHL NMU FSE RAL
+WATER    KRE        ABUTS    RKA IFN AON PWN RVS MTO RSD VEA GBA
+WATER    SWW        ABUTS    RPU ONE ORE BPE GUV
+COAST    NMU        ABUTS    AYS EPR SAM OHL ORR RIW RAL
+COAST    YSE        ABUTS    RPU FSE BRO GUV
+COAST    WOG        ABUTS    AYS PYU BGS NEN SWT/SC OHA
+COAST    ONE        ABUTS    MMM YLR SWW BPE GUV BRO
+WATER    IUK        ABUTS    EBW AAA MAL/SC LLE GBA EHO
+WATER    ORE        ABUTS    AAP RPU OLB SWW GMB BPE OUT MAL/NC MAL/SC EHO
+COAST    EBW        ABUTS    NGE OLB IUK AAA MAL/SC SWI
+LAND     BGS        ABUTS    WOG OIA SWT RRA OHA
+LAND     RIW        ABUTS    EPR NEU NGE NMU RAL YYE UPS SWI
+COAST    GMB        ABUTS    ORE VEA EHO
+WATER    BPE        ABUTS    MMM SWW ONE ORE GLR
+COAST    RSD        ABUTS    PWN KRE RBT GBA
+COAST    ISG        ABUTS    PHS SAR FSE GLR SVL SWT/NC GOE
+WATER    FSE        ABUTS    GNK SAM YLR RPU YSE OHL ORR ISG GLR SVL BRO
+WATER    GLR        ABUTS    PHS MMM YLR BPE ISG FSE
+LAND     MAR        ABUTS    NGE AAP OLB GVR
+COAST    GVR        ABUTS    GNK AAP NGE RPU MAR
+COAST    AAA        ABUTS    IUK EBW LLE UPS RRO SWI
+COAST    OUT        ABUTS    ORE MAL/NC MAL/SC
+COAST    NEN        ABUTS    AYS EPR WOG YYE OHA
+COAST    RBT        ABUTS    PWN RSD LLE GBA RRO
+LAND     RAL        ABUTS    GNK NGE ORR NMU RIW
+COAST    IHP        ABUTS    IOG CSM URN/EC SRN AVU OIA RRA
+LAND     AVU        ABUTS    AON CSM URN MTO IHP BAE
+COAST    OIA        ABUTS    EBV IOG BGS IHP RRA
+LAND     YYE        ABUTS    EPR NEU SRN RIW NEN OHA
+WATER    SVL        ABUTS    SAM ISG FSE GOE
+COAST    NBW        ABUTS    IFN LOW EBV AWG RVS BER
+COAST    MAL/NC     ABUTS    OLB ORE OUT
+COAST    MAL/SC     ABUTS    IUK ORE EBW OUT EHO
+COAST    MAL        ABUTS    OLB IUK ORE EBW OUT EHO
+COAST    SWT/NC     ABUTS    PHS ISG
+COAST    SWT/SC     ABUTS    PYU SAR WOG
+COAST    SWT        ABUTS    PHS PYU SAR WOG BGS ISG
+COAST    GOE        ABUTS    AYS PYU SAM SAR ISG SVL
+COAST    BER        ABUTS    EBV RVS NBW
+COAST    BAE        ABUTS    RKA AON CSM AVU UPS RRO OEB
+COAST    VEA        ABUTS    KRE GMB GBA EHO
+COAST    LLE        ABUTS    IUK AAA RBT GBA RRO
+LAND     UPS        ABUTS    NEU RIW AAA BAE RRO OEB SWI
+WATER    GBA        ABUTS    KRE IUK RBT RSD VEA LLE EHO
+LAND     RRA        ABUTS    SRN BGS IHP OIA OHA
+COAST    RRO        ABUTS    RKA PWN AAA RBT BAE LLE UPS
+LAND     OEB        ABUTS    NEU CSM SRN BAE UPS
+COAST    GUV        ABUTS    RPU SWW YSE ONE BRO
+LAND     OHA        ABUTS    SRN WOG BGS NEN YYE RRA
+WATER    EHO        ABUTS    ORE IUK GMB MAL/SC VEA GBA
+COAST    BRO        ABUTS    YLR YSE ONE FSE GUV
+
+#    ------------------------
+#    Switzerland (impassable)
+#    ------------------------
+Switzerland        = swi
+SHUT    SWI        ABUTS    EBW NGE RIW UPS AAA

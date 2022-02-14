@@ -1,13 +1,13 @@
 import chroma from "chroma-js";
 
 export const powerBaseColors = {
-  AUSTRIA: chroma("#B5BF90"),
-  ENGLAND: chroma("#EDD096"),
-  FRANCE: chroma("#CE8D74"),
-  GERMANY: chroma("#A1BBBF"),
-  ITALY: chroma("#F8CACA"),
-  RUSSIA: chroma("#C9C7DD"),
-  TURKEY: chroma("#CE8DBB"),
+  ALPHA: chroma("#B5BF90"),
+  BETA: chroma("#EDD096"),
+  GAMMA: chroma("#CE8D74"),
+  DELTA: chroma("#A1BBBF"),
+  EPSILON: chroma("#F8CACA"),
+  ZETA: chroma("#C9C7DD"),
+  ETA: chroma("#CE8DBB"),
 };
 
 export const landColor = chroma("#CCCCCC");

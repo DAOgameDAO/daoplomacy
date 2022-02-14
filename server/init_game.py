@@ -4,8 +4,9 @@ from files import init_dirs, store_game
 
 
 def main():
+    game = diplomacy.Game(map_name="../map/daoplomacy.map")
+    print(game.map)
     init_dirs()
-    game = diplomacy.Game()
     store_game(0, game, None)
 
 
