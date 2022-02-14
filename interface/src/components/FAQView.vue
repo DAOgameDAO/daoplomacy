@@ -63,19 +63,17 @@ export default defineComponent({
 });
 </script>
 
-<style>
-ul {
-  list-style: square;
-}
-li {
-  list-style: square outside none;
-  display: list-item;
-  margin-left: 1.5em;
-}
-</style>
-
 <style scoped>
-a:link {
-  text-decoration: underline;
+:deep() ul {
+  @apply list-[square];
+}
+:deep() ol {
+  @apply list-decimal;
+}
+:deep() li {
+  @apply ml-6;
+}
+:deep() a {
+  @apply underline;
 }
 </style>
