@@ -16,8 +16,6 @@ const powers: types.Power[] = [
 const dislodgeOffset: Number[] = [25, -25];
 const map = parseMap(mapSVG);
 
-console.log(map);
-
 function parseMap(svg: types.Map): any {
   const viewbox = parseViewBox(svg);
   const backgroundEllipse = parseBackgroundEllipse(svg);
