@@ -62,3 +62,14 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+ul {
+  list-style: square;
+}
+li {
+  list-style: square outside none;
+  display: list-item;
+  margin-left: 1.5em;
+}
+</style>

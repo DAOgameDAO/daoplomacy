@@ -22,6 +22,10 @@
         {
           "question": "What's DAOgameDAO?",
           "answer": "DAOgameDAO aims to coordinate people and resources around multiplayer games that are played by DAOs. Yes, it is also a DAO.\n\nThe first of these games is DAOplomacy."
+        },
+        {
+          "question": "How can I stay up to date?",
+          "answer": "Follow the [DAOgameDAO Twitter account](https://twitter.com/daogamedao) and join the [DAOgameDAO Discord](https://discord.com/invite/tUjKK3HeNs)."
         }
       ]
     },
@@ -55,6 +59,10 @@
         {
           "question": "What are the different phases?",
           "answer": "Each in-game year starts in **Spring**. First, there is a Movement phase in which the players submit one order for each of their units. Next, there is a Retreat phase in which units that were attacked (and failed to defend their territory) must move to an adjacent territory or disband. If there aren't any units that need to retreat, the Retreat phase is skipped automatically.\n\nThe next season is **Fall**. Again, there is a Movement phase followed by a Retreat phase.\n\nThe year ends in **Winter** with an Adjustment phase. In this phase, DAOs that conquered supply centers during the year are allowed to recruit new units. In turn, DAOs that lost supply centers have to disband some of their units."
+        },
+        {
+          "question": "What are the different order types?",
+          "answer": "1) Move\n\nThe unit moves to another territory and attacks (if there already is another army/fleet occupying). Move orders are given in the form \"`[unit] - [target]`\", e.g., \"`A EBW - MAL`\". On the map, move orders are represented as an arrow.\n\n2) Hold\n\nThe unit stays in its current territory and defends it if it is attacked. This is the default in case a DAO fails to submit any explicit order. Hold orders are given in the form \"`[unit] H`\", e.g., \"`A RBT H`\". On the map, hold orders are represented by a circle around the unit.\n\n3) Support\n\nThe unit supports another unit, either in defending their territory or in attacking another one. Support hold orders are written as \"`[unit] S [receiver] H`\", e.g., \"`A CSM S A OEB H`\". Support move orders look similar: \"`[unit] S [receiver] - [target]`\", e.g., \"`A BGS S A OHA - RRA`\". Support orders are represented by a dashed line ending in a vertical bar.\n\n4) Convoy\n\nThis order can only be given to fleets and instructs them to carry an army across water. It is written as \"`[unit] C [receiver] - [target]`\", e.g., \"`F ORE C A OUT - AAP`\"."
         }
       ]
     },
@@ -87,7 +95,7 @@
         },
         {
           "question": "What is Shutter?",
-          "answer": "Shutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted. \nShutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted."
+          "answer": "Shutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted.\nShutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted."
         }
       ]
     }
