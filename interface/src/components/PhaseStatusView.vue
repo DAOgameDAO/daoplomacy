@@ -2,8 +2,7 @@
   <div class="flex justify-center my-3">
     <div>
       <p v-if="!contractsDeployed" class="text-center">
-        The order collector contract has not been deployed yet, so orders cannot
-        be submitted at this time.
+        The game hasn't started yet.
       </p>
       <p v-else-if="phaseStarted && !phaseEnded" class="text-center">
         The selected phase is currently in progress. The order collector
