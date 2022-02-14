@@ -5,68 +5,56 @@
       "faq": [
         {
           "question": "What's DAOplomacy?",
-          "answer": "DAOplomacy is a DAO-flavoured take on the popular strategic board game \"Diplomacy\".\n\nEssentially it's DAOs fighting (and most importantly, negotiating alliances) on a geographical map for territories.\n\nWe hope people have fun playing it and while doing so learn a little about DAOs and increase DAO/governance participartion.\n\nMore info on DAOs: https://en.wikipedia.org/wiki/Decentralized_autonomous_organization\n\nMore info on Diplomacy: https://en.wikipedia.org/wiki/Diplomacy_(game)"
+          "answer": "DAOplomacy is a DAO-flavored take on the popular strategic board game \"Diplomacy.\" Essentially it's DAOs fighting (and most importantly, negotiating alliances) on an imaginary geographical map to conquer territories.\n\nWe hope people have fun playing it, and while doing so learn a little about DAOs, to ultimately boost participation in DAOs and governance.\n\nRead more about [DAOs (Decentralized Autonomous Organizations)](https://decrypt.co/resources/decentralized-autonomous-organization-dao) or about [the game of Diplomacy](https://en.wikipedia.org/wiki/Diplomacy_(game))."
         },
         {
           "question": "What's the goal of DAOplomacy?",
-          "answer": "The main goal is having fun!\n\nWhile doing so, we also want to:\n\n- increase DAO/voting engagement and interest in the topic\n- educate about DAOs\n- test and prototype various governance mechanisms"
+          "answer": "The main goal is having fun! While doing so, we also want to:\n\n- boost DAO engagement (and voting) and interest in the topic\n- educate people about DAOs\n- test and prototype various governance mechanisms"
         },
         {
           "question": "Who can join the game?",
-          "answer": "We want a diverse set of DAOs, established ones and new ones to be part of the initial cohort. If you think a DAO you're part of should take part, please apply here!"
+          "answer": "We want a diverse set of DAOs to be part of the initial cohort, including both new and established DAOs. If you think your DAO should take part, [please read the invitation letter for instructions how to apply](daogamedao.substack.com)."
         },
         {
           "question": "Is there a prize?",
-          "answer": "Yes! All partipants receive DAOgameDAO shares according to a specific algorithm (e.g. more active players, winners get more). Winners and winning DAOs receive special winner NFTs"
+          "answer": "Yes! The winning DAO(s) will receive a prize, but we won\u2019t tell you what it is yet.\n\nIn addition, all participants will receive DAOgameDAO governance tokens. The distribution will be designed to especially reward the more active players and the winners."
         },
         {
-          "question": "What's the DAOgameDAO?",
-          "answer": "TheDAOgameDAO is a DAO which aims to coordinate people and resources around launching multiplayer games that are played by DAOs. The first of these games is DAOplomacy"
-        },
-        {
-          "question": "How can I stay up to date?",
-          "answer": "Follow the Twitter game master account here: Join the TheDAOgameDAO discord here:"
+          "question": "What's DAOgameDAO?",
+          "answer": "DAOgameDAO aims to coordinate people and resources around multiplayer games that are played by DAOs. Yes, it is also a DAO.\n\nThe first of these games is DAOplomacy."
         }
       ]
     },
     {
-      "name": "Rules",
+      "name": "Game Rules",
       "faq": [
         {
-          "question": "What's the setting of the game?",
-          "answer": "There's a number of territories on land and sea. There will be 7 DAOs which compete for these territories and their armies and fleets."
+          "question": "How does the game work?",
+          "answer": "Seven DAOs compete to claim territories on the map. Instead of taking turns, the DAOs secretly plan moves that are all executed simultaneously each round. Since moves are secret until executed, DAOs have to trust each other to collaborate on strategy."
         },
         {
-          "question": "What's the goal of the game?",
-          "answer": "The goal is for one DAO to capture all territories on the map via taking them over ideally with support from an allied DAO."
+          "question": "What's the setting of the game?",
+          "answer": "The Land of DAO. It has 75 territories (56 land and 19 water)."
+        },
+        {
+          "question": "How do you win?",
+          "answer": "In order to win the game, a DAO has to conquer 18 or more of the 35 territories with a supply center. Since this is very hard, another way to win is as a coalition: Eliminate some opponents and pass a vote among the rest agreeing on a draw."
         },
         {
           "question": "What's a supply center?",
-          "answer": "Some of the territories are supply centers. If you have captured one of these supply centers, it allows the DAO to raise and maintain armies and fleets."
+          "answer": "The number of supply centers a DAO controls determines the number of armies and fleets they can support (one unit per supply center)."
         },
         {
           "question": "How long does a game last?",
-          "answer": "A standard game of Diplomacy usually lasts for 50 rounds. For the first game, we're proposing to allocate 3 days between each round. So the game should last around 5 months, give or take."
+          "answer": "A standard game of Diplomacy usually lasts for about 50 rounds. We're proposing to allocate 3 days between each round, so the game should last approximately **5 months** (give or take)."
         },
         {
-          "question": "When does the game end?",
-          "answer": "The game ends if one DAO has taken over all territories or if a succesful vote to draw has passed."
-        },
-        {
-          "question": "Which unit types are there and how can they move?",
-          "answer": "There are armies (represented by a circle) and fleets (represented by a triangle). Armies can move only on land. Fleets can move on water and coasts (land territories adjacent to water)."
+          "question": "What unit types are there and how can they move?",
+          "answer": "There are armies (represented by a circle) and fleets (represented by a triangle). Armies can move only on land. Fleets can move on water and coasts (land territories adjacent to water). At each turn, units can move to an adjacent territory. The only exception is by convoying, i.e., one or more fleets carrying an army across water."
         },
         {
           "question": "What are the different phases?",
-          "answer": "**Spring**\n- movement\n- retreatment\n\n**Fall**\n- movement\n- retreatment\n\n**Winter**\n- adjustment"
-        },
-        {
-          "question": "What are the different order types?",
-          "answer": "- Move/attack: The unit moves to another territory and attacks (if there already is another unit occuping)\n\n- Stay/defend: Remain in the territory and possibly defend, if another DAO attacks.\n\n- Support one of their own or another DAO's army/fleet"
-        },
-        {
-          "question": "What happens if a player is eliminated?",
-          "answer": "Although eliminated by the rules (and thus shouldn't be able to do anything anymore), the player technically can still do moves, but the game ignores them."
+          "answer": "Each in-game year starts in **Spring**. First, there is a Movement phase in which the players submit one order for each of their units. Next, there is a Retreat phase in which units that were attacked (and failed to defend their territory) must move to an adjacent territory or disband. If there aren't any units that need to retreat, the Retreat phase is skipped automatically.\n\nThe next season is **Fall**. Again, there is a Movement phase followed by a Retreat phase.\n\nThe year ends in **Winter** with an Adjustment phase. In this phase, DAOs that conquered supply centers during the year are allowed to recruit new units. In turn, DAOs that lost supply centers have to disband some of their units."
         }
       ]
     },
@@ -74,28 +62,32 @@
       "name": "Architecture",
       "faq": [
         {
-          "question": "Where is the game played?",
-          "answer": "The game will be deployed on Gnosis Chain (https://www.xdaichain.com/) and you can interact with it using the frontend on this website. It will use a threshold encryption scheme and the system by Shutter Network (https://shutter.network/) for encrypting moves and ensuring that the moves aren't transparent for other DAOs before they are executed."
+          "question": "Where does the game live?",
+          "answer": "The game will be deployed on Gnosis Chain (https://www.xdaichain.com/). The state of the game as well as an Order Planner tool is available on this website."
         },
         {
-          "question": "How can the players make their moves?",
-          "answer": "They have to use the order planner, make a DAO proposal with the generated calldata. In order for other DAO members to see what's going on, they can share the unencrypted order privately with other DAO members. It might make sense to create a dedicated private channel for this by each DAO team."
+          "question": "How are moves kept secret?",
+          "answer": "The game will use a threshold encryption scheme and [Shutter Network](https://shutter.network/) to ensure that the moves are kept secret from other DAOs until they are executed."
         },
         {
-          "question": "What can I see on the game page?",
-          "answer": "The map and the order planner."
+          "question": "How can DAO members coordinate moves in secret?",
+          "answer": "Players should use the Order Planner to generate each move's Calldata. You can use the \"Copy Order Link\" button to share your **unencrypted** order **secretly** with other DAO members. This allows your teammates to review the order and double-check the Calldata. It might make sense for each DAO to create a dedicated private channel for this."
         },
         {
-          "question": "How does the order planner work?",
-          "answer": "Plan your move via the order planner and make a DAO proposal with the generated calldata."
+          "question": "Can I use the Order Planner to submit my DAO's move?",
+          "answer": "No. The Order Planner exists to help you plan your move. You have to submit your move externally, as a proposal to your DAO, by copy-pasting the generated Calldata to wherever your DAO lives."
+        },
+        {
+          "question": "How can my DAO submit a move?",
+          "answer": "First, a member of your DAO must make a proposal (by copy-pasting the Calldata from the Order Planner). Then, your DAO must vote to execute this move."
         },
         {
           "question": "How are the moves processed?",
-          "answer": ""
+          "answer": "The DAOs submit their encrypted orders to the order collector contract. Once each phase is finished, Shutter will generate the decryption key and send it to the key broadcast contract. Now, everyone can fetch the orders, decrypt them, and execute them off-chain to get the current game state. You can find code that does this [here](https://github.com/DAOgameDAO/daoplomacy/tree/main/server)."
         },
         {
           "question": "What is Shutter?",
-          "answer": "Shutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, in order to encrypt game moves that shouldn't be visible to other players before they're excecuted. "
+          "answer": "Shutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted. \nShutter Network is an open-source project that aims to prevent front running on Ethereum by using a threshold cryptography-based distributed key generation (DKG) protocol. Besides combating malicious MEV, it can also be used to encrypt DAO votes (https://blog.shutter.network/announcing-shutter-governance-shielded-voting-for-daos/) and in this case, to encrypt game moves that shouldn't be visible to other players before they're excecuted."
         }
       ]
     }
