@@ -6,15 +6,15 @@
       </p>
 
       <div class="mt-4 flex justify-center gap-x-8">
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/DAOgameDAO">
           <img :src="twitterSrc" class="w-12" alt="Twitter" />
         </a>
 
-        <a href="https://discord.com">
+        <a href="https://discord.gg/tUjKK3HeNs">
           <img :src="discordSrc" class="w-12" alt="Discord" />
         </a>
 
-        <a href="https://github.com">
+        <a href="https://github.com/daogamedao/daoplomacy">
           <img :src="githubSrc" class="w-12" alt="Github" />
         </a>
       </div>
