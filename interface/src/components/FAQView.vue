@@ -73,3 +73,9 @@ li {
   margin-left: 1.5em;
 }
 </style>
+
+<style scoped>
+a:link {
+  text-decoration: underline;
+}
+</style>
