@@ -161,7 +161,6 @@ module.exports = {
   networks: {
     gnosis: {
       url: "https://rpc.gnosischain.com/",
-      accounts: [""],
     },
   },
   namedAccounts: {
