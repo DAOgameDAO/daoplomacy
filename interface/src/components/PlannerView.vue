@@ -291,7 +291,8 @@ export default {
         name: "planner",
         query: query,
       });
-      return "localhost:3000/" + route.href;
+      const url = new URL(route.href, window.location.href);
+      return url.href;
     },
   },
 
